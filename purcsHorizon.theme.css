@@ -48,7 +48,7 @@
     --background-primary: #1C1E26;
     --background-secondary: #1C1E26;
     --background-secondary-alt: #1A1C23;
-    --background-tertiary: #1A1C23;
+    --background-tertiary: #16161C;
     /* --background-tertiary-alt: url("image-link"); */
     --background-tertiary-alt: #FFC7D4;
     --background-floating: #2E303E;
@@ -438,7 +438,7 @@
     
     border-radius: 0 var(--border-radius) 0 0;
     background-color: var(--background-secondary-alt);
-    box-shadow: 1px -1px 5px 1px #16161C;
+    box-shadow: 1px -1px 5px 1px var(--background-tertiary);
     overflow: visible;
 }
 
@@ -465,7 +465,7 @@
 :root .search-36MZv- .focused-31_ccS .searchBar-3dMhjb, :root .search-36MZv- .open-6_Y_aH .searchBar-3dMhjb {
     width: 25vw;
     border-radius: var(--border-radius);
-    background-color: #2E303E;
+    background-color: var(--background-floating);
   }
 :root .search-36MZv- .focused-31_ccS .searchBar-3dMhjb .iconContainer-O4O2CN{
   transform: scale(2.5);
@@ -479,7 +479,7 @@
   }
 :root .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
     width: 25vw;
-    background-color: #2E303E;
+    background-color: var(--background-floating);
     border-radius: var(--border-radius);
 }
 
@@ -599,8 +599,8 @@
 }
 
 :root .searchResultsWrap-3-pOjs .searchHeader-2XoQg7 {
-    background-color: #1A1C23;
-    box-shadow: 0 1px #2E303E;
+    background-color: var(--background-floating);
+    box-shadow: 0 1px var(--background-floating);
 }
 
 :root .searchResultsWrap-3-pOjs .searchHeader-2XoQg7 > * {
@@ -722,7 +722,7 @@
     background-color: var(--xbox);
   }
 :root .userPopout-3XzG_A .body-3iLsc4 {
-    background-color: #16161C;
+    background-color: var(--background-tertiary);
     color: var(--text-normal);
   }
 
@@ -1037,7 +1037,7 @@
   }
   :root .container-1D34oG .peopleListItem-2nzedh {
     border-radius: 0;
-    border-top: solid #2E303E 1.5px;
+    border-top: solid var(--background-floating) 1.5px;
     background:transparent;
     margin: 8px 10px 8px 20px;
     padding: 16px 10px;
