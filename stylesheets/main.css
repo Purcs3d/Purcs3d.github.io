@@ -54,6 +54,10 @@
     --scrollbar-thin-track: transparent;
 }
 
+:root header {
+    color: var(--interactive-active);
+}
+
 :root a {
     color:            var(--interactive-normal);
     background: transparent;
