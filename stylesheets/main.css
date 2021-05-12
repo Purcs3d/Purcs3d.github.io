@@ -85,7 +85,7 @@
     --scrollbar-thin-track: transparent;
 }
 
-head.h1 {
+h1.main_head {
     width: 100%;
     background: var(--header-primary);
     text-align: center;   
