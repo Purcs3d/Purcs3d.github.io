@@ -22,7 +22,7 @@
     
 }
 
-.theme-horizon .dark {
+.theme-horizon.dark {
     /* Text variables */
     --text-normal: #FFDED5;
     --header-primary: #F09383;
