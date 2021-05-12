@@ -1,0 +1,100 @@
+/**
+* @name main
+* @author Purcs3d
+* @description Main stylesheet being used on the githuib pages.
+        (variable names based of the Discord CSS files)
+* @version 1.0
+*/
+
+:root {
+
+    /** Border-radius for the whole theme */
+    --border-radius: 15px;
+    --border-inner-radius: 5px;
+    --border-mod-radius: 40px;
+    --border-active-radius: 4px;
+
+    /** Standard transitions */
+    --active-transition: .25s;
+
+    background: var(--background-primary);
+    color: var(--text-normal);
+    
+}
+
+.theme-horizon .dark {
+    /* Text variables */
+    --text-normal: #FFDED5;
+    --header-primary: #F09383;
+    --interactive-normal: #E95379;
+    
+    --header-secondary: #FEF0ED;
+    --interactive-hover: #F09383AA;
+    --interactive-active: #E95678;
+    --interactive-visited: #D1835C6C;
+
+    /* Background color */
+    --background-primary: #1C1E26;
+    --background-secondary: #1C1E26;
+    --background-secondary-alt: #1A1C23;
+    --background-tertiary: #1A1C23;
+    /* --background-tertiary-alt: url("image-link"); */
+    --background-tertiary-alt: #FFC7D4;
+    --background-floating: #2E303E;
+    --drop-background: #232530;
+    --background-accent: #FAB7953F;
+    --background-modifier-hover: #FFC42346;
+    --background-modifier-active: #FFC42352;
+    --background-modifier-selected: #FAB28E4D;
+
+        /* Scrollbar */
+    --scrollbar-auto-thumb: #E95379;
+    --scrollbar-auto-track: #232530;
+    --scrollbar-thin-thumb: #E9537925;
+    --scrollbar-thin-track: transparent;
+}
+
+:root a {
+    color:            var(--interactive-normal);
+    background: transparent;
+    transition:       var(--active-transition);
+    }
+:root a:hover {
+    color:            var(--interactive-hover);
+    background-color: var(--background-modifier-hover);
+    border: solid 2px blue;
+    transition:       var(--active-transition);
+    }
+:root a:active {
+    color:            var(--interactive-active);
+    background-color: var(--background-modifier-active);
+    }
+:root a:visited {
+    color:            var(--interactive-visited);
+}
+
+:root .main_section {
+    border: none;    
+    border-radius:    var(--border-radius);
+    background-color: var(--background-tertiary);
+    color: var(--text-normal);
+    margin-left: 5%;
+}
+
+.main_section .header {
+    background-color: var(--header-primary);
+    text-decoration: underline;
+    padding: 10px;
+    }
+.main_section .content {
+    padding-left: 20px;
+    }
+.main_section .content li {
+    color: var(--header-primary);
+    }
+.main_section .content li a{
+    color: var(--header-primary);
+    }
+.main_section footer {
+    padding: 15px;
+}
