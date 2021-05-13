@@ -6,7 +6,9 @@
 * @version 1.0
 */
 
-html {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200&display=swap');
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -21,7 +23,7 @@ html {
     --active-transition: .25s;
     background: var(--background-primary);
     color: var(--text-normal);
-    font-family: sans-serif;
+    font-family: Nunito;
     margin: 0px;
     padding: 0;
 }
@@ -56,12 +58,13 @@ html {
 }
 
 .main_head {
-    width: 100vw;
+    width: 95.3%;
     background: var(--header-primary);
     text-align: center;
     padding: 30px;
     margin: 0;
     margin-bottom: 20px;
+    box-shadow: 0px 2px 1px var(--header-primary);
 }
 
  :root a {
@@ -75,6 +78,7 @@ html {
     color: var(--interactive-hover);
     background-color: var(--background-modifier-hover);
     transition: var(--active-transition);
+    border-radius: var(--border-active-radius);
 }
 
  :root a:active {
@@ -86,7 +90,7 @@ html {
     color: var(--interactive-visited);
 }
 
- :root .main_section {
+ :root .flex_column {
     max-width: 30%;
     border: none;
     border-radius: var(--border-radius);
@@ -96,7 +100,7 @@ html {
     overflow: hidden;
 }
 
-.main_section .header {
+.flex_column .header {
     background-color: var(--interactive-normal);
     text-decoration: none;
     padding: 10px;
@@ -104,18 +108,31 @@ html {
     font-size: 1em;
 }
 
-.main_section .content {
+.flex_column .content {
     padding-left: 20px;
 }
 
-.main_section .content li {
+.flex_column .content ul {
+    list-style-type: none;
+    padding-left: 0;
+    transition: var(--active-transition);
+}
+
+.flex_column .content li {
+    padding-bottom: 5px;
     color: var(--header-primary);
 }
 
-.main_section .content li a {
-    color: var(--header-primary);
+.main_head .content li:hover {
+    padding: 20px;
+    margin-left: 3px;
 }
 
-.main_section footer {
+.flex_column .content li a {
+    color: var(--header-primary);
+    margin-left: 0;
+}
+
+.flex_column footer {
     padding: 15px;
 }
