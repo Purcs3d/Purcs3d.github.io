@@ -46,8 +46,9 @@
     --background-accent: #fab7953f;
     --channeltextarea-background: #232530;
     --background-modifier-hover: #ffc42346;
-    --background-modifier-active: #ffc42352;
-    --background-modifier-selected: #fab28e4d;
+    --background-modifier-active: #fab28e4d;
+    --background-modifier-selected: #ffc42352;
+    --background-modifier-selected-alt: #b877db;
     --toast-background: #5e3640 !important;
     --toast-header: #3b1d24 !important;
     --toast-contents: #49292f !important;
@@ -161,6 +162,13 @@
     color: var(--interactive-normal);
 }
 
+
+/* -- misc CSS -- */
+
+::selection {
+    background: var(--background-modifier-selected-alt);
+}
+
 :root .embedFull-2tM8-- {
     border-style: none;
     margin-left: 10px;
@@ -236,6 +244,10 @@
 :root .spoilerText-3p6IlD.hidden-HHr2R9,
  :root .spoilerText-3p6IlD.hidden-HHr2R9:hover {
     background-color: #ffded57a;
+}
+
+.barFill-23-gu- {
+    background-color: var(--interactive-normal);
 }
 
 :root .wrapper-35wsBm {
@@ -757,6 +769,10 @@
     max-width: 300px;
     border-radius: var(--border-radius);
     min-width: 300px;
+}
+
+:root .botTagRegular-2HEhHi {
+    background: var(--interactive-normal);
 }
 
 :root .userPopout-3XzG_A {
