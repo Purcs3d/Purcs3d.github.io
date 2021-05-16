@@ -274,7 +274,7 @@
 }
 
 :root .invalidPoop-pnUbq7 {
-    background-color: #4809f7;
+    background-color: var(--background-tertiary);
 }
 
 :root .autocomplete-1vrmpx,
@@ -417,7 +417,7 @@
 
 :root .wrapper-39oAo3 {
     border-radius: var(--border-radius);
-    background-color: #4809f7;
+    background-color: var(--background-tertiary);
 }
 
 :root .reaction-1hd86g {
@@ -541,8 +541,8 @@
 }
 
 :root .container-2x5lvQ .header-2C89wJ {
-    background-color: #0202eb;
-    color: #4809f7;
+    background-color: var(--background-floating);
+    color: var(--text-normal);
 }
 
 :root [href="https://support.discord.com"],
