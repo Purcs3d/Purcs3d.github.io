@@ -207,7 +207,7 @@
 }
 
 :root .mediaBarPreview-1jfyFs {
-    background-color: var(--background-modifier-hover);
+    background-color: var(--background-modifier-selected-alt);
 }
 
 .wrapper-2TxpI8 {
@@ -237,7 +237,7 @@
 .mediaBarProgress-1xaPtl::before,
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN,
 .mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN {
-    background-color: var(--scrollbar-auto-thumb);
+    background-color: var(--background-modifier-selected-alt);
     color: var(--text-normal);
 }
 
@@ -247,7 +247,12 @@
 }
 
 .barFill-23-gu- {
-    background-color: var(--interactive-normal);
+    background-color: var(--background-modifier-selected-alt);
+}
+
+:root .notches-1sAcEM.gray-3_LNYR {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%231c1e26'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+    background-color: var(--background-floating);
 }
 
 :root .wrapper-35wsBm {
@@ -262,6 +267,7 @@
 
 :root .embedSpotify-tvxDCr {
     border-radius: var(--border-inner-radius) var(--border-radius) 30px var(--border-inner-radius);
+    border: solid 2px var(--spotify);
 }
 
 :root .tile-2OwFgW {
