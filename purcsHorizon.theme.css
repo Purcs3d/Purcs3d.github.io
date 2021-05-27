@@ -32,7 +32,7 @@
     --text-muted: #FAC29A99;
     --interactive-muted: #d1835c6c;
     --header-secondary: #fef0ed;
-    --interactive-hover: #F09383AA;
+    --interactive-hover: #e4c5cc;
     --interactive-active: #E95678;
     /* Background color */
     --background-primary: #1C1E26;
@@ -45,10 +45,10 @@
     --drop-background: #232530;
     --background-accent: #fab7953f;
     --channeltextarea-background: #232530;
-    --background-modifier-hover: #ffc42346;
-    --background-modifier-active: #fab28e4d;
-    --background-modifier-selected: #ffc42352;
-    --background-modifier-selected-alt: #cb9ae7;
+    --background-modifier-hover: #503a2e73;
+    --background-modifier-active: var(--background-floating);
+    --background-modifier-selected: var(--background-floating);
+    --background-modifier-selected-alt: #fcd97949;
     --toast-background: #5e3640 !important;
     --toast-header: #3b1d24 !important;
     --toast-contents: #49292f !important;
@@ -58,6 +58,7 @@
     --scrollbar-auto-track: #232530;
     --scrollbar-thin-thumb: #E9537925;
     --scrollbar-thin-track: transparent;
+    --slider: #cb9ae7;
     /* Other */
     --deprecated-quickswitcher-input-background: #2E303E;
 }
@@ -160,6 +161,7 @@
 .colorDefault-2K3EoJ.focused-3afm-j,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
     color: var(--interactive-normal);
+    background-color: blue;
 }
 
 
@@ -167,6 +169,7 @@
 
 ::selection {
     background: var(--background-modifier-selected-alt);
+    color: var(--interactive-hover);
 }
 
 :root .embedFull-2tM8-- {
@@ -207,7 +210,7 @@
 }
 
 :root .mediaBarPreview-1jfyFs {
-    background-color: var(--background-modifier-selected-alt);
+    background-color: var(--slider);
 }
 
 .wrapper-2TxpI8 {
@@ -237,7 +240,7 @@
 .mediaBarProgress-1xaPtl::before,
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN,
 .mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN {
-    background-color: var(--background-modifier-selected-alt);
+    background-color: var(--slider);
     color: var(--text-normal);
 }
 
@@ -247,7 +250,7 @@
 }
 
 .barFill-23-gu- {
-    background-color: var(--background-modifier-selected-alt);
+    background-color: var(--slider);
 }
 
 :root .notches-1sAcEM.gray-3_LNYR {
@@ -329,6 +332,10 @@
     background-color: var(--header-primary);
     margin-bottom: 0px;
     padding-bottom: 20px;
+}
+
+:root .header-2V-4Sw:hover {
+    background-color: inherit;
 }
 
 :root .colorHeaderSecondary-3Sp3Ft {
@@ -513,7 +520,7 @@
 
 :root .colorPremium-p4p7qO.focused-3afm-j .icon-LYJorE,
 :root .colorPremium-p4p7qO:active:not(.hideInteraction-1iHO1O) .icon-LYJorE {
-    transition: .15s;
+    transition: var(--active-transition);
     color: var(--text-normal);
 }
 
@@ -531,6 +538,24 @@
 :root .content-1Wq3SX {
     border-radius: var(--border-inner-radius);
     background-color: var(--channeltextarea-background);
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background: var(--background-modifier-selected);
+}
+
+:root .modeSelected-346R90 .content-1x5b-n {
+    background-color: var(--background-tertiary);
+    border-radius: var(--border-inner-radius);
+}
+
+:root .modeSelected-346R90:hover .content-1x5b-n {
+    background-color: var(--background-modifier-hover);
+    border-radius: var(--border-inner-radius);
+}
+
+.modeSelected-346R90 .channelName-2YrOjO {
+    color: var(--interactive-active);
 }
 
 :root .panels-j1Uci_ {
@@ -829,7 +854,7 @@
 :root .userPopout-3XzG_A .body-3iLsc4,
  :root .userPopout-3XzG_A .footer-1fjuF6 {
     z-index: 1;
-    background-color: #16161C;
+    background-color: var(--background-tertiary);
 }
 
 :root .userPopout-3XzG_A .headerPlaying-j0WQBV .activityUserPopout-2yItg2 {
@@ -900,6 +925,15 @@
 
 :root .modal-3c3bKg .root-SR8cQa>*:first-child {
     background-color: var(--background-primary);
+}
+
+.activity-fViXj7 {
+    padding-bottom: 15px;
+}
+
+.timeBarUserPopout-AWPFf2 .barInner-3NDaY_ {
+    background-color: var(--slider);
+    color: var(--slider);
 }
 
 :root .modal-3c3bKg .root-SR8cQa .activity-1ythUs {
@@ -1000,6 +1034,7 @@
 :root .modal-3c3bKg .root-SR8cQa .body-3ND3kc .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7:hover {
     background: var(--background-modifier-hover);
     transition: var(--active-transition);
+    color: var(--interactive-normal);
 }
 
 :root .modal-3c3bKg .root-SR8cQa .body-3ND3kc .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 .connectedAccountIcon-3P3V6F {
@@ -1021,6 +1056,10 @@
 :root .modal-3c3bKg .root-SR8cQa .body-3ND3kc .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 .connectedAccountNameInner-1phBvE .connectedAccountName-f8AEe2 {
     text-align: center;
     margin: 0;
+}
+
+:root .modal-3c3bKg .root-SR8cQa .body-3ND3kc .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7:hover .connectedAccountNameInner-1phBvE .connectedAccountName-f8AEe2 {
+    color: var(--interactive-normal);
 }
 
 :root .modal-3c3bKg .root-SR8cQa .body-3ND3kc .userInfoSection-2acyCx .connectedAccounts-repVzS .connectedAccount-36nQx7 .connectedAccountNameInner-1phBvE span {
@@ -1176,6 +1215,11 @@
 
  :root .addRoleButton-3Y-nzm~.draggable-1EOU8o {
     margin: 2px 0;
+}
+
+.clickable-1JJAn8:hover {
+    transition: var(--active-transition);
+    color: var(--interactive-normal);
 }
 
  :root .headerClickable-2IVFo9,
