@@ -3,7 +3,7 @@
 * @author Purcs3d#7822
 * @description Theme based on VSCode Horizon Theme
 *   ( https://horizontheme.netlify.app/ )
-* @version 1.2.5
+* @version 1.2.6
 */
 
 :root {
@@ -59,8 +59,60 @@
     --scrollbar-thin-thumb: #E9537925;
     --scrollbar-thin-track: transparent;
     --slider: #cb9ae7;
+    --spoiler: #ffded57a;
     /* Other */
     --deprecated-quickswitcher-input-background: #2E303E;
+}
+
+.theme-light {
+    /* TODO FIX BOLD HEADER NAMES TO MATCH THE THEME */
+    /* Text */
+    --text-normal: #E73665;
+    --header-primary: #F09383;
+    --interactive-normal: #E84A72;
+    --channels-default: #F6661E;
+    --text-muted: #F43E5C;
+    --interactive-muted: #d1835c49;
+    --header-secondary: #DA103F;
+    /* TODO */
+    --interactive-hover: #F77D26;
+    /* TODO */
+    --interactive-active: #DC3318;
+    /* Background color */
+    --background-primary: #FDF0ED;
+    --background-secondary: #FDF0ED;
+    --background-secondary-alt: #F9CBBE;
+    --background-tertiary: #F9CBBE;
+    /* --background-tertiary-alt: url("image-link"); */
+    --background-tertiary-alt: #1A1C23;
+    --background-floating: #FADAD1;
+    --drop-background: #ffd7ce;
+    --background-accent: #16161C;
+    --channeltextarea-background: #F9CBBE;
+    --background-modifier-hover: #af542744;
+    --background-modifier-active: #f6661e70;
+    --background-modifier-selected: #f6661e70;
+    --background-modifier-selected-alt: #F43E5C2f;
+    --toast-background: #5e3640 !important;
+    /* TODO */
+    --toast-header: #3b1d24 !important;
+    /* TODO */
+    --toast-contents: #49292f !important;
+    /* TODO */
+    --toast-border: #49292f !important;
+    /* TODO */
+    /* Scrollbar */
+    --scrollbar-auto-thumb: #F77D26;
+    --scrollbar-auto-track: #e6dcda77;
+    /* TODO */
+    --scrollbar-thin-thumb: #E73665;
+    /* TODO */
+    --scrollbar-thin-track: transparent;
+    /* TODO */
+    --slider: #8931B9;
+    --spoiler: #FAB795;
+    /* Other */
+    --deprecated-quickswitcher-input-background: #FADAD1;
 }
 
 .colorBrand-ROmMP1 {
@@ -95,38 +147,6 @@
 .colorDefault-2K3EoJ.focused-3afm-j,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
     color: var(--interactive-normal);
-}
-
-.theme-light {
-    /* TODO */
-    /* Text */
-    --text-normal: #a86373;
-    --header-primary: #a86373;
-    --interactive-normal: #a86373;
-    --channels-default: #a86373;
-    --text-muted: #a86373;
-    --interactive-muted: #cf92a0;
-    --header-secondary: #cf92a0;
-    --interactive-hover: #be7d8c;
-    --interactive-active: #b36f7f;
-    /* Background color */
-    --background-primary: #FFFFFF;
-    --background-secondary: #ffeeee;
-    --background-secondary-alt: #fdc7c7;
-    --background-tertiary: #ffbbbb;
-    --background-floating: #ffbbbb;
-    --background-accent: #c5536c;
-    --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(56, 31, 31, 0.062);
-    --background-modifier-active: rgba(19, 12, 12, 0.123);
-    --background-modifier-selected: rgba(31, 21, 21, 0.11);
-    /* Scrollbar */
-    --scrollbar-auto-thumb: var(--background-tertiary);
-    --scrollbar-auto-track: var(--background-secondary-alt);
-    --scrollbar-thin-thumb: var(--background-tertiary);
-    --scrollbar-thin-track: transparent;
-    /* Other */
-    --deprecated-quickswitcher-input-background: var(--background-primary);
 }
 
 .colorBrand-ROmMP1 {
@@ -167,9 +187,15 @@
 
 /* -- misc CSS -- */
 
-::selection {
+.theme-dark ::selection {
     background: var(--background-modifier-selected-alt);
     color: var(--interactive-hover);
+}
+
+.theme-light ::selection {
+    background: var(--background-modifier-selected-alt);
+    color: ;
+    font-weight: 5000;
 }
 
 :root .embedFull-2tM8-- {
@@ -321,6 +347,23 @@
 
 :root .reactionSelected-1pqISm {
     background-color: var(--header-primary);
+}
+
+:root .reaction-1hd86g.reactionMe-wv5HKu {
+    background: var(--background-floating);
+    border-color: var(--interactive-active);
+}
+
+:root .reaction-1hd86g.reactionMe-wv5HKu:hover {
+    background: var(--interactive-hover);
+}
+
+.theme-dark .reaction-1hd86g.reactionMe-wv5HKu {
+    border: solid 2px var(--slider);
+}
+
+.theme-dark .reaction-1hd86g.reactionMe-wv5HKu:hover {
+    background: var(--background-floating);
 }
 
 :root .message-2qRu38 {
@@ -564,6 +607,10 @@
     background-color: var(--background-tertiary);
     box-shadow: 1px -1px 5px 1px var(--background-tertiary);
     overflow: visible;
+}
+
+.theme-light .panels-j1Uci_ {
+    box-shadow: 1px -1px 1px 1px var(--background-tertiary);
 }
 
 :root .panels-j1Uci_ .container-1giJp5 {
