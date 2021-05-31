@@ -74,9 +74,7 @@
     --text-muted: #F43E5C;
     --interactive-muted: #d1835c49;
     --header-secondary: #DA103F;
-    /* TODO */
     --interactive-hover: #F77D26;
-    /* TODO */
     --interactive-active: #DC3318;
     /* Background color */
     --background-primary: #FDF0ED;
@@ -194,7 +192,6 @@
 
 .theme-light ::selection {
     background: var(--background-modifier-selected-alt);
-    color: ;
     font-weight: 5000;
 }
 
@@ -272,7 +269,7 @@
 
 :root .spoilerText-3p6IlD.hidden-HHr2R9,
  :root .spoilerText-3p6IlD.hidden-HHr2R9:hover {
-    background-color: #ffded57a;
+    background-color: var(--spoiler);
 }
 
 .barFill-23-gu- {
