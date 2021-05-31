@@ -1,9 +1,9 @@
 /**
-* @name purcsHorizon
+* @name sourceHorizon
 * @author Purcs3d#7822
 * @description Theme based on VSCode Horizon Theme
 *   ( https://horizontheme.netlify.app/ )
-* @version 1.2
+* @version 1.2.5
 */
 
 :root {
@@ -561,7 +561,7 @@
 :root .panels-j1Uci_ {
     margin-right: 5px;
     border-radius: 0 var(--border-radius) 0 0;
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-tertiary);
     box-shadow: 1px -1px 5px 1px var(--background-tertiary);
     overflow: visible;
 }
@@ -812,6 +812,10 @@
     border-radius: 5px;
     margin-right: 6px;
     transform: translateZ(0);
+}
+
+:root .headerTop-2y3V6H {
+    border: none;
 }
 
 :root .userPopout-3XzG_A .header-2BwW8b {
