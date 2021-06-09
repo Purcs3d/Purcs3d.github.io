@@ -487,7 +487,7 @@
 
 :root .wrapper-2aW0bm {
     border-radius: var(--border-radius);
-    background-color: #2E303E;
+    background-color: var(--background-floating);
 }
 
 :root .guilds-1SWlCJ .scroller-1Bvpku {
@@ -635,17 +635,22 @@
     width: 25vw;
     border-radius: var(--border-radius);
     background-color: var(--background-floating);
+    padding-left: 10px;
 }
 
 :root .search-36MZv- .focused-31_ccS .searchBar-3dMhjb .iconContainer-O4O2CN {
     transform: scale(2.5);
 }
 
+:root .search-36MZv- .focused-31_ccS .searchBar-3dMhjb .iconContainer-O4O2CN svg {
+    color: var(--interactive-hover);
+}
+
 :root .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
     width: 26px;
     transition: var(--active-transition);
     border-radius: var(--border-mod-radius);
-    background-color: #E95678;
+    background-color: var(--interactive-normal);
 }
 
 :root .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
@@ -655,12 +660,20 @@
 }
 
 :root .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN {
-    transform: scale(1);
+    transform: scale(1.2);
     transition: var(--active-transition);
+}
+
+:root.theme-light .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN svg {
+    color: var(--background-primary);
 }
 
 :root .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN {
     transform: scale(2.5);
+}
+
+:root.theme-light .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN svg {
+    color: var(--interactive-hover);
 }
 
 :root .search-36MZv- .searchAnswer-3Dz2-q,
