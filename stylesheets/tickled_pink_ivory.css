@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+:root.TPI body {
+    /** Border-radius for the whole theme */
+    --border-radius: 12px;
+    --border-inner-radius: 2px;
+    --border-mod-radius: 20px;
+    --border-active-radius: 4px;
+}
+
+:root.TPI.dark {
+    /** Text */
+    --text-normal: #ffded5;
+    --text-header: #2E303E;
+    --header-primary: #FAC29A;
+    --header-secondary: transparent;
+    --interactive-normal: #E95379;
+    --channels-default: #FAB28E;
+    --text-muted: #FAC29A99;
+    --interactive-muted: #d1835c6c;
+    --interactive-hover: #e4c5cc;
+    --interactive-active: #E95678;
+    /** Background color */
+    --background-primary: #1C1E26;
+    --background-secondary: #1C1E26;
+    --background-secondary-alt: #1A1C23;
+    --background-tertiary: #16161C;
+    /** --background-tertiary-alt: url("image-link");   */
+    --background-tertiary-alt: #FFC7D4;
+    --background-floating: #2e303e31;
+    --drop-background: #232530;
+    --background-accent: #6c6f9338;
+    --channeltextarea-background: #232530;
+    --background-modifier-hover: #503a2e73;
+    --background-modifier-active: var(--background-floating);
+    --background-modifier-selected: var(--background-floating);
+    --background-modifier-selected-alt: #fcd97949;
+    /** Scrollbar */
+    --scrollbar-auto-thumb: #E95379;
+    --scrollbar-auto-track: #232530;
+    --scrollbar-thin-thumb: #E9537925;
+    --scrollbar-thin-track: transparent;
+    --slider: #cb9ae7;
+}
+
+:root.TPI.light {
+    /** Text */
+    --text-normal: #1F2330;
+    --text-header: #FFC8C4;
+    --header-primary: #1F2330;
+    /* TODO */
+    --interactive-normal: #fff;
+    /* TODO */
+    --channels-default: #BA0025;
+    /* TODO */
+    --text-muted: #F43E5C;
+    /* TODO */
+    --interactive-muted: #d1835c49;
+    /* TODO */
+    --header-secondary: #DA103F;
+    /* TODO */
+    --interactive-hover: #F77D26;
+    /* TODO */
+    --interactive-active: #DC3318;
+    /* TODO */
+    /** Background color */
+    --background-primary: #fffff0;
+    --background-secondary: #FCF7F0;
+    --background-secondary-alt: #fff;
+    /* TODO */
+    --background-tertiary: #fff;
+    /* TODO */
+    /** --background-tertiary-alt: url("image-link"); */
+    --background-tertiary-alt: #1A1C23;
+    /* TODO */
+    --background-floating: #FFFAEA;
+    /* TODO */
+    --drop-background: #FFF;
+    /* TODO */
+    --background-accent: #FFC8C4;
+    /* TODO */
+    --channeltextarea-background: #fff;
+    /* TODO */
+    --background-modifier-hover: #af542744;
+    /* TODO */
+    --background-modifier-active: #f6661e70;
+    /* TODO */
+    --background-modifier-selected: #f6661e70;
+    /* TODO */
+    --background-modifier-selected-alt: #F43E5C2f;
+    /* TODO */
+    /** Scrollbar */
+    --scrollbar-auto-thumb: #F77D26;
+    /* TODO */
+    --scrollbar-auto-track: #e6dcda77;
+    /* TODO */
+    --scrollbar-thin-thumb: #E73665;
+    /* TODO */
+    --scrollbar-thin-track: transparent;
+    /* TODO */
+    --slider: #8931B9;
+    /* TODO */
+}
+
+
+/** Styles */
+
+:root.TPI .main_head {
+    font-family: 'sacramento', cursive;
+    font-size: 400%;
+}
+
+:root.TPI .flex_box {
+    justify-content: left;
+    border-radius: var(--border-inner-radius);
+    border-top-right-radius: var(--border-radius);
+    border: none;
+    background: var(--background-floating);
+}
+
+:root.TPI .flex_box .header {
+    margin: 0px;
+    border-radius: var(--border-inner-radius) var(--border-radius) var(--border-radius) var(--border-inner-radius);
+}
+
+:root.TPI .flex_box .content {
+    border-left: solid 4px var(--background-accent);
+}
+
+:root.TPI .tri_flex {
+    padding-right: 5px;
+    margin: 2px 4px 10px 0;
+    width: 32%;
+}
+
+:root.TPI .tri_flex .header {
+    width: 95%;
+    border-radius: var(--border-inner-radius) var(--border-radius) var(--border-radius) var(--border-inner-radius);
+}
