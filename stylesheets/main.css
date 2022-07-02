@@ -1,210 +1,61 @@
-/**
-* @name main
-* @author Purcs3d
-* @description Main stylesheet being used on the githuib pages.
-        (variable names based of the Discord CSS files)
-* @version 1.0
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200&display=swap');
-@import url("purcs_horizon.css ");
-@import url("tickled_pink_ivory.css");
-html,
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Nunito;
-    --active-transition: .25s;
-    background: var(--background-primary);
-    color: var(--text-normal);
-    /** Border-radius for the whole theme */
-    --border-style: solid;
-    --border-radius: 15px;
-    --border-inner-radius: 5px;
-    --border-mod-radius: 40px;
-    --border-active-radius: 4px;
+  padding: 0%;
+  margin: 0;
+  width: 100vw;
+  background: darkgreen;
 }
 
-.dark {
-    /** Text */
-    --text-normal: #ffded5;
-    --text-header: #2E303E;
-    --header-primary: #FAC29A;
-    --header-secondary: transparent;
-    --interactive-normal: #E95379;
-    --channels-default: #FAB28E;
-    --text-muted: #FAC29A99;
-    --interactive-muted: #d1835c6c;
-    --interactive-hover: #e4c5cc;
-    --interactive-active: #E95678;
-    /** Background color */
-    --background-primary: #1C1E26;
-    --background-secondary: #1C1E26;
-    --background-secondary-alt: #1A1C23;
-    --background-tertiary: #16161C;
-    /** --background-tertiary-alt: url("image-link");   */
-    --background-tertiary-alt: #FFC7D4;
-    --background-floating: #2e303e31;
-    --drop-background: #232530;
-    --background-accent: #6c6f9338;
-    --channeltextarea-background: #232530;
-    --background-modifier-hover: #503a2e73;
-    --background-modifier-active: var(--background-floating);
-    --background-modifier-selected: var(--background-floating);
-    --background-modifier-selected-alt: #fcd97949;
-    /** Scrollbar */
-    --scrollbar-auto-thumb: #E95379;
-    --scrollbar-auto-track: #232530;
-    --scrollbar-thin-thumb: #E9537925;
-    --scrollbar-thin-track: transparent;
-    --slider: #cb9ae7;
+header {
+  margin: 5px;
+  background-color: maroon;
+  max-width: 100vw;
+  margin: 0;
+  border: none;
+  min-height: 80px;
 }
 
-.light {
-    /** Text */
-    --text-normal: #E73665;
-    --text-header: #FADAD1;
-    --header-primary: #F09383;
-    --interactive-normal: #E84A72;
-    --channels-default: #F6661E;
-    --text-muted: #F43E5C;
-    --interactive-muted: #d1835c49;
-    --header-secondary: #DA103F;
-    --interactive-hover: #F77D26;
-    --interactive-active: #DC3318;
-    /** Background color */
-    --background-primary: #FDF0ED;
-    --background-secondary: #FDF0ED;
-    --background-secondary-alt: #F9CBBE;
-    --background-tertiary: #F9CBBE;
-    /** --background-tertiary-alt: url("image-link"); */
-    --background-tertiary-alt: #1A1C23;
-    --background-floating: #FADAD1;
-    --drop-background: #ffd7ce;
-    --background-accent: #F9CBBE;
-    --channeltextarea-background: #F9CBBE;
-    --background-modifier-hover: #af542744;
-    --background-modifier-active: #f6661e70;
-    --background-modifier-selected: #f6661e70;
-    --background-modifier-selected-alt: #F43E5C2f;
-    /** Scrollbar */
-    --scrollbar-auto-thumb: #F77D26;
-    --scrollbar-auto-track: #e6dcda77;
-    --scrollbar-thin-thumb: #E73665;
-    --scrollbar-thin-track: transparent;
-    --slider: #8931B9;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
 }
 
-::selection {
-    background: var(--background-modifier-selected-alt);
+footer .flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-negative: row;
+      flex-shrink: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
-.main_head {
-    width: cover;
-    background: transparent;
-    text-align: center;
-    padding: 30px;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 250%;
+.flexbox > * {
+  min-width: 200px;
+  margin-left: .5%;
+  margin-right: .5%;
+  background: skyblue;
+  margin-bottom: 10px;
 }
 
-a {
-    color: var(--interactive-normal);
-    background: transparent;
-    transition: var(--active-transition);
-    text-decoration: none;
+footer > .column {
+  color: green;
 }
 
-a:hover {
-    color: var(--interactive-hover);
-    background-color: var(--background-modifier-hover);
-    transition: var(--active-transition);
-    border-radius: var(--border-active-radius);
+section.content_block {
+  float: right;
+  right: 0;
+  background: blue;
+  width: calc(100% - 8em);
+  margin-right: 1em;
 }
-
-a:active {
-    color: var(--interactive-active);
-    background-color: var(--background-modifier-active);
-}
-
-a:visited {
-    color: var(--interactive-visited);
-}
-
-.flex_section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.flex_box {
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    border: var(--border-style) var(--background-accent) 1px;
-    margin: 0 1.5% 20px 1.5%;
-    background-color: var(--background-floating);
-}
-
-.flex_section.flex_box {
-    width: 95%;
-    border-radius: var(--border-radius);
-    color: var(--text-normal);
-    overflow: hidden;
-}
-
-.flex_box .header {
-    width: 100%;
-    background-color: var(--header-primary);
-    color: var(--text-header);
-    text-decoration: none;
-    padding: 15px 12px;
-    margin-top: 0;
-    font-size: 1em;
-}
-
-.flex_box p.descript {
-    color: var(--channels-default);
-    border-bottom: solid 1px var(--text-normal);
-    padding-bottom: 2px;
-}
-
-.flex_box .content {
-    padding-left: 20px;
-}
-
-.flex_box .content p {}
-
-.flex_box .content ul {
-    list-style-type: none;
-    padding-left: 0;
-    transition: var(--active-transition);
-}
-
-.flex_box .content li {
-    padding-bottom: 5px;
-    color: var(--text-muted);
-}
-
-.flex_box .content li a {
-    color: var(--interactive-normal);
-    margin-left: 0;
-}
-
-.flex_box .content li a:hover {
-    transition: var(--active-transition);
-    padding-left: 5px;
-}
-
-.flex_box footer {
-    padding: 15px;
-    background-color: var(--background-tertiary);
-}
-
-.flex_box footer p {
-    margin: 2px;
-}
-
-.tri_flex {
-    width: 30%;
-}
+/*# sourceMappingURL=main.css.map */
