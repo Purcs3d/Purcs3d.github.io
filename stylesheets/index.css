@@ -9,22 +9,29 @@ header {
 }
 
 #left-header {
-  width: 52vw;
+  width: 55vw;
   height: 50vh;
-  padding: 1vw;
 }
 
 #image-block {
+  position: relative;
+  font-size: 0;
   float: center;
+  width: 80%;
+  min-height: 100%;
 }
 
-#header-link h1 {
-  color: transparent;
+#main-header {
   font-size: 0;
   text-decoration: none;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
   background-image: url(../img/dark_drop.jpg);
   background-repeat: no-repeat;
-  background-size: 50vw;
+  background-size: 120%;
   -webkit-mask-image: url(../img/MINOREOPUS.svg);
           mask-image: url(../img/MINOREOPUS.svg);
   -webkit-mask-size: contain;
@@ -33,33 +40,29 @@ header {
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
           mask-position: center;
-  width: inherit;
-  height: 50vh;
 }
 
 #main-sub {
-  width: inherit;
-  height: 50vh;
-  margin-top: -50vh;
+  font-size: 0;
+  height: 37%;
+  width: 40%;
+  position: absolute;
+  top: 57%;
+  left: 65%;
   background-color: #f5f2e8;
   -webkit-mask-image: url(/img/lab.svg);
           mask-image: url(/img/lab.svg);
-  -webkit-mask-size: 21.5vw 21vh;
-          mask-size: 21.5vw 21vh;
+  -webkit-mask-size: contain;
+          mask-size: contain;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
-  -webkit-mask-position: bottom right;
-          mask-position: bottom right;
-  -webkit-mask-origin: fill-box;
-          mask-origin: fill-box;
-  float: center;
 }
 
 #content-box {
   border-radius: 1vw;
   background-color: green;
-  float: left;
-  width: 42vw;
+  float: right;
+  width: 43vw;
   height: 96vh;
   overflow-y: scroll;
 }

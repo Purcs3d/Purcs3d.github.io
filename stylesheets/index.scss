@@ -1,3 +1,5 @@
+$head_width: 55vw;
+
 body {
     margin: 0;
     padding: 1vw 1vh;
@@ -5,62 +7,68 @@ body {
 
 header {
     float: left;
-    width: 55vw;
+    width: $head_width;
 }
 
 #left-header {
-    width: 52vw;
+    width: $head_width;
     height: 50vh;
-    padding: 1vw;
 }
 
 #image-block {
+    position: relative;
+    font-size: 0;
     float: center;
+    width: 80%;
+    min-height: 100%;
 }
 
-#header-link h1 {
-    color: transparent;
+#main-header {
     font-size: 0;
     text-decoration: none;
+    
+    height: 100%;
+    width: 100%;
+
+    top: 0%;
+    left: 0%;
+    position: absolute;
 
     background-image: url(../img/dark_drop.jpg);
     background-repeat: no-repeat;
-    background-size:50vw;
+    background-size: 120%;
 
     mask-image: url(../img/MINOREOPUS.svg);
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
-
-    width: inherit;
-    height: 50vh;
+    
 }
 
 #main-sub {
-    // color:transparent;
+    font-size: 0;
     
-    width: inherit;
-    height: 50vh;
-;
-    // margin-left: 32.7vw;
-    margin-top: -50vh;
+    height: 37%;
+    width: 40%;
 
+    position: absolute;
+    top: 57%;
+    left: 65%;
+    
+    
     background-color: #f5f2e8;
-
     mask-image: url(/img/lab.svg);
-    mask-size:  21.5vw 21vh;
+    mask-size:  contain;
     mask-repeat: no-repeat;
-    mask-position: bottom right;
-    mask-origin:fill-box;
-    float: center;
+
 }
  
 #content-box {
     border-radius: 1vw;
     background-color: green;
 
-    float: left;
-    width: 42vw;
+    float: right;
+    width: 100vw-$head_width - 2vw;
     height: 96vh;
 
     overflow-y: scroll;
