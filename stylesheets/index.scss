@@ -1,4 +1,6 @@
 $head_width: 55vw;
+$head_heigth: 60vh;
+$minore_ratio: 1.935;
 
 body {
     margin: 0;
@@ -12,15 +14,16 @@ header {
 
 #left-header {
     width: $head_width;
-    height: 50vh;
+    height: $head_heigth;
 }
 
 #image-block {
     position: relative;
     font-size: 0;
     float: center;
-    width: 80%;
-    min-height: 100%;
+    max-width: 100%;
+    min-width: calc($head_heaigth*$minore_ratio);
+    height: 100%;
 }
 
 #main-header {
@@ -52,8 +55,8 @@ header {
     width: 40%;
 
     position: absolute;
-    top: 57%;
-    left: 65%;
+    bottom: 0%;
+    right: 0%;
     
     
     background-color: #f5f2e8;

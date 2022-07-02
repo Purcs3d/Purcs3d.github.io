@@ -10,15 +10,16 @@ header {
 
 #left-header {
   width: 55vw;
-  height: 50vh;
+  height: 60vh;
 }
 
 #image-block {
   position: relative;
   font-size: 0;
   float: center;
-  width: 80%;
-  min-height: 100%;
+  max-width: 100%;
+  min-width: calc($head_heaigth*$minore_ratio);
+  height: 100%;
 }
 
 #main-header {
@@ -47,8 +48,8 @@ header {
   height: 37%;
   width: 40%;
   position: absolute;
-  top: 57%;
-  left: 65%;
+  bottom: 0%;
+  right: 0%;
   background-color: #f5f2e8;
   -webkit-mask-image: url(/img/lab.svg);
           mask-image: url(/img/lab.svg);
