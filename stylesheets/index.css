@@ -1,24 +1,28 @@
 body {
   margin: 0;
-  padding: 1vw 1vh;
 }
 
 header {
+  margin: 0;
+  padding: 0;
   float: left;
-  width: 55vw;
+  width: 50vw;
 }
 
 #left-header {
-  width: 55vw;
-  height: 60vh;
+  padding-top: 10vh;
+  width: 50vw;
+  height: 50vh;
+}
+
+.center-left-child {
+  margin: 0 auto;
 }
 
 #image-block {
   position: relative;
   font-size: 0;
-  float: center;
-  max-width: 100%;
-  min-width: calc($head_heaigth*$minore_ratio);
+  max-width: 86.75vh;
   height: 100%;
 }
 
@@ -43,28 +47,50 @@ header {
           mask-position: center;
 }
 
-#main-sub {
+#sub-header {
   font-size: 0;
-  height: 37%;
-  width: 40%;
+  height: 43%;
+  width: 32.7%;
   position: absolute;
   bottom: 0%;
   right: 0%;
   background-color: #f5f2e8;
-  -webkit-mask-image: url(/img/lab.svg);
-          mask-image: url(/img/lab.svg);
+  -webkit-mask-image: url(/img/lab_fuzz.svg);
+          mask-image: url(/img/lab_fuzz.svg);
   -webkit-mask-size: contain;
           mask-size: contain;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
-#content-box {
-  border-radius: 1vw;
-  background-color: green;
+#sub-header:hover {
+  opacity: 70%;
+  -webkit-mask-image: url(/img/lab_sharp.svg);
+          mask-image: url(/img/lab_sharp.svg);
+}
+
+#right-box {
+  background-color: orange;
   float: right;
-  width: 43vw;
-  height: 96vh;
+  width: 49vw;
+  height: 100vh;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0.5%;
+  border-left: #f5f2e8 solid 2px;
+  border-right: #f5f2e8 solid 2px;
+}
+
+#content {
+  padding: 5%;
+  margin: 0 auto;
   overflow-y: scroll;
+  background-color: orangered;
+  border-radius: 3px;
+  scrollbar-color: #22222250 #44444450;
+  scrollbar-width: thin;
 }
 /*# sourceMappingURL=index.css.map */

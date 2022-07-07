@@ -1,29 +1,45 @@
-$head_width: 55vw;
-$head_heigth: 60vh;
+$head_width  : 50vw;
+$head_heigth : 50vh;
+
+$img_padding : 10; // in vw
 $minore_ratio: 1.935;
+$lab_ratio   : 1.483;
+$lab_heigth  : 43%;
+$lab_width   : 32.7%;
+
+$content-margin: .5%;
 
 body {
     margin: 0;
-    padding: 1vw 1vh;
 }
 
 header {
+    margin: 0;
+    padding: 0;
     float: left;
     width: $head_width;
 }
 
 #left-header {
+    padding-top: 10vh;
     width: $head_width;
     height: $head_heigth;
+
+    // debug background
+    // background-color: maroon;
+}
+.center-left-child {
+    margin: 0 auto;
 }
 
 #image-block {
     position: relative;
     font-size: 0;
-    float: center;
-    max-width: 100%;
-    min-width: calc($head_heaigth*$minore_ratio);
+    max-width: ($head_heigth*$minore_ratio)-$img_padding;
     height: 100%;
+
+    // debug background
+    // background-color: blue;
 }
 
 #main-header {
@@ -45,35 +61,61 @@ header {
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
-    
 }
 
-#main-sub {
+#sub-header {
     font-size: 0;
     
-    height: 37%;
-    width: 40%;
+    height: $lab_heigth;
+    width: $lab_width;
 
     position: absolute;
     bottom: 0%;
     right: 0%;
     
-    
     background-color: #f5f2e8;
-    mask-image: url(/img/lab.svg);
+    mask-image: url(/img/lab_fuzz.svg);
     mask-size:  contain;
     mask-repeat: no-repeat;
-
+    
+    transition: 200ms;
+    &:hover{
+        opacity: 70%;
+        mask-image: url(/img/lab_sharp.svg);
+    }
 }
  
-#content-box {
-    border-radius: 1vw;
-    background-color: green;
+#right-box {
+    background-color: orange;
+    float : right;
 
-    float: right;
-    width: 100vw-$head_width - 2vw;
-    height: 96vh;
+    width : 99vw - $head_width;
+    height: 100vh;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    // margin-right: 20px;
+    padding: $content-margin;
+
+    border-left: #f5f2e8 solid 2px;
+    border-right: #f5f2e8 solid 2px;
+}
+
+//TODO yeah this should be an upper dive, 
+// and then the content box should be inside that one
+#content {
+    padding: 5%;
+    margin: 0 auto;
 
     overflow-y: scroll;
+    background-color: orangered;
+    border-radius: 3px;
+
+    scrollbar-color: #22222250 #44444450;
+    scrollbar-width: thin;
+
 
 }
+// TODO chrome and safari scollbar

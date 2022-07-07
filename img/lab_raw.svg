@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="413.91754mm"
+   height="279.04565mm"
+   viewBox="0 0 413.91754 279.04565"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="lab.svg"
+   sodipodi:docname="lab_raw.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,14 +24,18 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.20021921"
-     inkscape:cx="-831.58855"
-     inkscape:cy="-761.66519"
+     inkscape:cx="2574.678"
+     inkscape:cy="-22.475366"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-9"
      inkscape:window-y="152"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs2">
     <filter
@@ -64,7 +68,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(55.650695,-8.1512432)">
     <text
        xml:space="preserve"
        style="font-size:129.293px;line-height:1.25;font-family:sans-serif;letter-spacing:-6.73398px;word-spacing:0px;fill:#f5f2e8;fill-opacity:1;stroke-width:0.673398;filter:url(#filter7430)"
@@ -79,7 +84,7 @@
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro';fill:#f5f2e8;fill-opacity:1;stroke-width:0.673398"
          x="-25.731869"
-         y="312.07275"
+         y="312.07266"
          id="tspan2241-0"
          dy="-70">Purcs</tspan></text>
     <rect

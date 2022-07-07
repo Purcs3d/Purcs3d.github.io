@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="413.92mm"
+   height="279.05mm"
+   version="1.1"
+   viewBox="0 0 413.92 279.05"
+   id="svg36"
+   sodipodi:docname="lab_sharp.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview38"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.57403025"
+     inkscape:cx="791.77012"
+     inkscape:cy="640.21016"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="152"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <defs
+     id="defs8">
+    <filter
+       id="filter16741"
+       x="-0.029142768"
+       y="-0.044481245"
+       width="1.0582855"
+       height="1.0889625"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="0.58263294"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       id="filter7430"
+       x="-0.0041747835"
+       y="-0.0073062158"
+       width="1.0083496"
+       height="1.0146124"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="0.58263294"
+         id="feGaussianBlur5" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter913"
+       x="-0.030433729"
+       y="-0.046451953"
+       width="1.0608675"
+       height="1.0929039">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.79302817"
+         id="feGaussianBlur915" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter917"
+       x="-0.0056823517"
+       y="-0.009944796"
+       width="1.0113647"
+       height="1.0198896">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.79302817"
+         id="feGaussianBlur919" />
+    </filter>
+  </defs>
+  <g
+     aria-label="Lab of  Purcs"
+     id="text3896-4-3"
+     style="font-size:129.293px;line-height:1.25;letter-spacing:-6.73398px;word-spacing:0px;fill:#f5f2e8;stroke-width:0.673398;filter:url(#filter917)">
+    <path
+       d="M 39.486259,45.125456 V 138.21642 H 99.090332 V 122.95984 H 54.742833 V 45.125456 Z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4378" />
+    <path
+       d="m 98.174338,105.89317 c 0,18.48889 13.575762,33.61618 32.064662,33.61618 8.14546,0 15.64446,-4.26667 19.91112,-9.56769 v 8.27476 H 165.4067 V 73.569916 h -15.25658 v 8.016166 c -4.26666,-5.042427 -11.76566,-9.309096 -19.91112,-9.309096 -18.4889,0 -32.064662,15.127281 -32.064662,33.616184 z M 131.79052,87.53356 c 10.08485,0 18.3596,8.274752 18.3596,18.35961 0,10.08485 -8.27475,18.3596 -18.3596,18.3596 -10.08486,0 -18.35961,-8.27475 -18.35961,-18.3596 0,-10.084858 8.27475,-18.35961 18.35961,-18.35961 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4380" />
+    <path
+       d="m 173.67053,138.21642 h 15.25658 v -8.27476 c 4.26666,5.30102 11.76566,9.56769 19.91112,9.56769 18.61819,0 32.06466,-15.12729 32.06466,-33.61618 0,-18.488903 -13.44647,-33.616184 -32.06466,-33.616184 -8.14546,0 -15.64446,4.266669 -19.91112,9.309096 V 45.125456 h -15.25658 z m 33.61618,-50.68286 c 10.08486,0 18.35961,8.274752 18.35961,18.35961 0,10.08485 -8.27475,18.3596 -18.35961,18.3596 -10.08485,0 -18.3596,-8.27475 -18.3596,-18.3596 0,-10.084858 8.27475,-18.35961 18.3596,-18.35961 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4382" />
+    <path
+       d="m 300.61442,72.276986 c -18.48889,0 -33.61618,14.997988 -33.61618,33.616184 0,18.48889 15.12729,33.61618 33.61618,33.61618 18.6182,0 33.61618,-15.12729 33.61618,-33.61618 0,-18.618196 -14.99798,-33.616184 -33.61618,-33.616184 z m -18.3596,33.616184 c 0,-10.084858 8.27475,-18.35961 18.3596,-18.35961 10.08486,0 18.35961,8.274752 18.35961,18.35961 0,10.08485 -8.27475,18.3596 -18.35961,18.3596 -10.08485,0 -18.3596,-8.27475 -18.3596,-18.3596 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4384" />
+    <path
+       d="m 343.2703,88.82649 v 49.38993 h 15.25658 V 88.82649 h 15.90303 V 73.569916 h -15.90303 v -2.456567 c 0,-9.826268 4.26666,-12.541421 11.89495,-12.541421 h 4.00808 V 43.832526 h -5.30101 c -15.90304,0 -25.8586,7.628287 -25.8586,26.246479 v 3.490911 H 332.40969 V 88.82649 Z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4386" />
+    <path
+       d="m 39.486259,233.92287 h 15.256574 v -29.22021 h 23.531326 c 17.195969,0 29.866681,-13.57577 29.866681,-31.93537 0,-18.35961 -12.670712,-31.93538 -29.866681,-31.93538 h -38.7879 z m 36.848505,-77.83438 c 10.214147,0 16.678797,6.46465 16.678797,16.6788 0,10.08485 -6.593943,16.67879 -16.80809,16.67879 H 54.742833 v -33.35759 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4388" />
+    <path
+       d="m 112.52598,169.27637 v 38.9172 c 0,16.42021 10.34344,27.02223 25.34143,27.02223 7.62829,0 14.61011,-3.23232 19.39395,-8.27475 v 6.98182 h 15.25658 v -64.6465 h -15.25658 v 34.90911 c 0,10.08486 -6.85253,16.6788 -15.64445,16.6788 -8.14546,0 -13.83435,-5.17172 -13.83435,-15.90304 v -35.68487 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4390" />
+    <path
+       d="m 196.03851,233.92287 v -34.90911 c 0,-9.82626 8.01617,-16.67879 17.71314,-16.67879 0.51717,0 1.16364,0 1.68081,0.12929 v -14.48082 c -8.27475,0 -14.99799,3.49092 -19.39395,8.66264 v -7.36971 h -15.25657 v 64.6465 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4392" />
+    <path
+       d="m 245.67624,235.2158 c 9.56768,0 18.23031,-4.00808 24.30708,-10.47273 L 259.252,213.88246 c -3.36162,3.7495 -8.27475,6.07677 -13.57576,6.07677 -10.08486,0 -18.35961,-8.27475 -18.35961,-18.35961 0,-10.08485 8.27475,-18.3596 18.35961,-18.3596 5.30101,0 10.21414,2.32727 13.57576,5.94748 l 10.73132,-10.73132 c -6.07677,-6.46465 -14.7394,-10.47274 -24.30708,-10.47274 -18.4889,0 -33.61618,14.99799 -33.61618,33.61618 0,18.4889 15.12728,33.61618 33.61618,33.61618 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4394" />
+    <path
+       d="m 271.44435,224.83086 c 7.75758,7.11111 14.94829,10.38494 25.67961,10.38494 15.64445,0 27.15153,-8.53333 27.15153,-20.1697 0,-13.96365 -11.50708,-18.4889 -24.30708,-21.46264 -6.98182,-1.68081 -13.44647,-3.10303 -13.44647,-6.59394 0,-2.84445 3.23232,-5.17172 9.95556,-5.17172 6.20606,0 12.67071,1.93939 17.32526,5.94747 l 8.40404,-10.34344 c -6.33535,-5.68889 -15.64445,-9.43839 -25.7293,-9.43839 -14.61011,0 -25.34143,7.88688 -25.34143,18.87678 0,13.83435 14.35152,16.93739 24.95355,19.91112 4.78384,1.29293 12.9293,2.97374 12.9293,8.40405 0,3.49091 -5.04243,6.20606 -11.50708,6.20606 -7.24041,0 -11.97456,-2.62736 -17.01698,-7.02332 z"
+       style="font-family:'Mustica Pro';-inkscape-font-specification:'Mustica Pro'"
+       id="path4396"
+       sodipodi:nodetypes="csscssccsscsscc" />
+  </g>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#f5f2e8;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter913)"
+     id="rect12323-6"
+     width="391.12091"
+     height="256.24902"
+     x="11.39807"
+     y="11.399764" />
+</svg>
