@@ -1,13 +1,29 @@
 $head_width  : 50vw;
 $head_heigth : 50vh;
 
-$img_padding : 10; // in vw
-$minore_ratio: 1.935;
-$lab_ratio   : 1.483;
+// image section
+$img_padding : 10;
 $lab_heigth  : 43%;
 $lab_width   : 32.7%;
 
+$minore_ratio: 1.935;
+$lab_ratio   : 1.483;
+
+// content padding / margins
 $content-margin: .5%;
+$scroll-margin: .5;
+
+$cat_padding: 0;
+$project_padding: 1%;
+$body_padding: 3%;
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+:root {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: normal;
+}
 
 body {
     margin: 0;
@@ -78,7 +94,7 @@ header {
     mask-size:  contain;
     mask-repeat: no-repeat;
     
-    transition: 200ms;
+    transition: 100ms;
     &:hover{
         opacity: 70%;
         mask-image: url(/img/lab_sharp.svg);
@@ -86,36 +102,96 @@ header {
 }
  
 #right-box {
-    background-color: orange;
+    background-color: transparent;
     float : right;
 
-    width : 99vw - $head_width;
+    width : 99vw - $head_width - $scroll-margin;
     height: 100vh;
-
+    margin-right: 0% + $scroll-margin;
+    
+    padding: $content-margin;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 
-    // margin-right: 20px;
-    padding: $content-margin;
+    // TODO chrome and safari scollbar
+    overflow-y: scroll;
+    scrollbar-color: #90909050 #44444450;
+    scrollbar-width: thin;
 
-    border-left: #f5f2e8 solid 2px;
-    border-right: #f5f2e8 solid 2px;
 }
 
-//TODO yeah this should be an upper dive, 
-// and then the content box should be inside that one
+//TODO touch ups
 #content {
+    min-height: 100%;
+
     padding: 5%;
     margin: 0 auto;
 
-    overflow-y: scroll;
-    background-color: orangered;
+    background-color: #44444450;
     border-radius: 3px;
 
-    scrollbar-color: #22222250 #44444450;
-    scrollbar-width: thin;
-
-
+    color: beige;
 }
-// TODO chrome and safari scollbar
+    
+.category {
+    position: relative;
+    margin-bottom: 3em;
+}
+.category {
+    padding-left: 2%;
+}
+.category::after {
+    position: absolute;
+    content: "";
+    height: 3%;
+    width: 100%;
+    border-bottom: .2em dashed #ffffff10;
+}
+.cat-header {
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.project {
+    
+}
+.project-header {
+    margin-bottom: .1em;
+
+    font-size: 1.6em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.project-time {
+    display: inline-block;
+
+    margin-bottom: 1em;
+
+    font-size: 1em;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #ffffff50;
+    font-style: italic;
+}
+
+summary {
+    font-size: 1.4em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+    padding-left: $body_padding;
+}
+p {
+    font-size: 1.1em;
+    // font-size: 16px;
+    font-family: 'Anonymous Pro', serif;
+    font-weight: 400;
+
+    padding-left: $body_padding;
+}
+
+footer {
+    // margin: 2%;
+}

@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+:root {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: normal;
+}
+
 body {
   margin: 0;
 }
@@ -61,8 +68,8 @@ header {
           mask-size: contain;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
-  -webkit-transition: 200ms;
-  transition: 200ms;
+  -webkit-transition: 100ms;
+  transition: 100ms;
 }
 
 #sub-header:hover {
@@ -72,25 +79,80 @@ header {
 }
 
 #right-box {
-  background-color: orange;
+  background-color: transparent;
   float: right;
-  width: 49vw;
+  width: 48.5vw;
   height: 100vh;
+  margin-right: 0.5%;
+  padding: 0.5%;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  padding: 0.5%;
-  border-left: #f5f2e8 solid 2px;
-  border-right: #f5f2e8 solid 2px;
+  overflow-y: scroll;
+  scrollbar-color: #90909050 #44444450;
+  scrollbar-width: thin;
 }
 
 #content {
+  min-height: 100%;
   padding: 5%;
   margin: 0 auto;
-  overflow-y: scroll;
-  background-color: orangered;
+  background-color: #44444450;
   border-radius: 3px;
-  scrollbar-color: #22222250 #44444450;
-  scrollbar-width: thin;
+  color: beige;
+}
+
+.category {
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.category {
+  padding-left: 2%;
+}
+
+.category::after {
+  position: absolute;
+  content: "";
+  height: 3%;
+  width: 100%;
+  border-bottom: .2em dashed #ffffff10;
+}
+
+.cat-header {
+  font-size: 1.8em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.project-header {
+  margin-bottom: .1em;
+  font-size: 1.6em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.project-time {
+  display: inline-block;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-family: 'Lato';
+  font-weight: 300;
+  color: #ffffff50;
+  font-style: italic;
+}
+
+summary {
+  font-size: 1.4em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding-left: 3%;
+}
+
+p {
+  font-size: 1.1em;
+  font-family: 'Anonymous Pro', serif;
+  font-weight: 400;
+  padding-left: 3%;
 }
 /*# sourceMappingURL=index.css.map */
