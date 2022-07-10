@@ -94,39 +94,65 @@ header {
 }
 
 #content {
-  min-height: 100%;
-  padding: 5%;
+  padding: 0%;
   margin: 0 auto;
-  background-color: #44444450;
+  background-color: transparent;
   border-radius: 3px;
   color: beige;
+  font-family: 'Anonymous Pro', serif;
 }
 
 .category {
   position: relative;
-  margin-bottom: 3em;
-}
-
-.category {
-  padding-left: 2%;
-}
-
-.category::after {
-  position: absolute;
-  content: "";
-  height: 3%;
-  width: 100%;
-  border-bottom: .2em dashed #ffffff10;
+  margin-bottom: 2rem;
+  padding: .2rem 1.5rem;
+  border-radius: 4px;
+  margin-top: 0;
 }
 
 .cat-header {
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1.8em;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
+.category::before {
+  content: "";
+  height: calc(100% - 10px);
+  width: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: beige;
+  border-radius: 1px;
+}
+
+.project {
+  position: relative;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project::after {
+  content: "";
+  position: absolute;
+  border: #44444450 solid 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+  width: 10%;
+}
+
 .project-header {
-  margin-bottom: .1em;
+  margin-top: 0;
+  margin-bottom: .2rem;
   font-size: 1.6em;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -134,7 +160,7 @@ header {
 
 .project-time {
   display: inline-block;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   font-size: 1em;
   font-family: 'Lato';
   font-weight: 300;
@@ -146,13 +172,22 @@ summary {
   font-size: 1.4em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   padding-left: 3%;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: 'Anonymous Pro', serif;
-  font-weight: 400;
+  font-weight: 300;
   padding-left: 3%;
+}
+
+footer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: blue;
 }
 /*# sourceMappingURL=index.css.map */
