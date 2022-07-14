@@ -9,6 +9,16 @@ body {
   margin: 0;
 }
 
+a {
+  color: #dcdcf5;
+  -webkit-transition: 150ms;
+  transition: 150ms;
+}
+
+a:hover {
+  color: beige;
+}
+
 header {
   margin: 0;
   padding: 0;
@@ -110,15 +120,6 @@ header {
   margin-top: 0;
 }
 
-.cat-header {
-  margin-bottom: 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.8em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-
 .category::before {
   content: "";
   height: calc(100% - 10px);
@@ -128,6 +129,20 @@ header {
   left: 0;
   background: beige;
   border-radius: 1px;
+}
+
+.cat-header {
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.8em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.cat-header:hover .header-link {
+  opacity: 1;
 }
 
 .project {
@@ -158,21 +173,70 @@ header {
   font-weight: 400;
 }
 
-.project-time {
-  display: inline-block;
-  margin-bottom: 1rem;
-  font-size: 1em;
-  font-family: 'Lato';
-  font-weight: 300;
+.project-header:hover .header-link {
+  opacity: 1;
+}
+
+.project-meta {
   color: #ffffff50;
+  font-family: 'Anonymous Pro';
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.project-meta > * {
+  margin: inherit;
+  padding: inherit;
+  font-size: inherit;
+}
+
+.project-meta time {
   font-style: italic;
+}
+
+.project-meta p.archived {
+  color: grey;
+  font-weight: 300;
+}
+
+.project-meta p.in-progress {
+  color: green;
+}
+
+.project-meta p.unstarted {
+  color: orange;
+}
+
+.project-meta p.shelved {
+  color: red;
+}
+
+.header-link {
+  opacity: 0;
+  position: absolute;
+  color: #909090f0;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0 .6em;
+  -webkit-transition: 150ms;
+  transition: 150ms;
+}
+
+.header-link:hover {
+  opacity: 1;
+  margin: 0;
+  color: #f5f2e8;
+  text-decoration: underline;
+  border-radius: 5px;
 }
 
 summary {
   font-size: 1.4em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  margin-top: .5rem;
+  margin-top: 1.5rem;
   margin-bottom: .5rem;
   padding-left: 3%;
 }
@@ -185,9 +249,11 @@ p {
 }
 
 footer {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: .5rem;
+  margin-bottom: 0;
   padding: 1rem;
-  background-color: blue;
+  font-family: "Raleway", sans-serif;
+  background-color: #00000030;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */

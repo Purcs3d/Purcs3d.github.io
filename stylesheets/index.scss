@@ -21,6 +21,7 @@ $body_padding: 3%;
 
 //TODO header should allow scroll of content
 
+
 :root {
     font-family: 'Lato';
     font-weight: 300;
@@ -31,12 +32,23 @@ body {
     margin: 0;
 }
 
+a {
+    color: #dcdcf5;
+    
+    transition: 150ms;
+    &:hover {
+        color: beige;
+    }
+}
+
 header {
     margin: 0;
     padding: 0;
     float: left;
     width: $head_width;
 }
+
+
 
 #left-header {
     padding-top: 10vh;
@@ -149,10 +161,26 @@ header {
     border-radius: 4px;
 
     margin-top: 0;
-    
+
+    // category border
+    &::before {
+        content: "";
+
+        height: calc(100% - 10px);
+        width: 4px;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+        background: beige;
+        
+        border-radius: 1px;   
+    }   
 }
 .cat-header {
     // background-color: blue;
+    position: relative;
 
     margin-bottom: 0;
     padding-top: 1rem;
@@ -162,22 +190,11 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     
-}
-// category border
-.category::before {
-    content: "";
-
-    height: calc(100% - 10px);
-    width: 4px;
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    
-    background: beige;
-    
-    border-radius: 1px;
-    
+    &:hover .header-link {
+        // background-color: blue;
+        // display: inline;
+        opacity: 1;
+    }
 }
 
 .project {
@@ -185,21 +202,22 @@ header {
 
     padding-bottom: 1.5rem;
     margin-bottom: 1rem;
-}
-.project:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.project::after {
-    content: "";
-    position: absolute;
 
-    border: #44444450 solid 2px;
-    border-bottom-left-radius: 2px;
-    border-top-right-radius: 2px;
-
-    width: 10%;
+    &:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    &::after {
+        content: "";
+        position: absolute;
     
+        border: #44444450 solid 2px;
+        border-bottom-left-radius: 2px;
+        border-top-right-radius: 2px;
+    
+        width: 10%;
+        
+    }
 }
 .project-header {
     margin-top: 0;
@@ -208,17 +226,72 @@ header {
     font-size: 1.6em;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+
+    &:hover .header-link {
+        // background-color: blue;
+        // display: inline;
+        opacity: 1;
+    }
 }
-.project-time {
-    display: inline-block;
-
-    margin-bottom: 1rem;
-
-    font-size: 1em;
-    font-family: 'Lato';
-    font-weight: 300;
+.project-meta {
     color: #ffffff50;
-    font-style: italic;
+    font-family: 'Anonymous Pro';
+    font-size: 1em;
+    font-weight: 300;
+    
+    & > *{
+        margin: inherit;
+        padding: inherit;
+        
+        font-size: inherit;
+    }
+    
+    & time {
+        font-style: italic;
+    }
+
+    & p.archived {
+        color: grey;
+        font-weight: 300;
+    }
+    & p.in-progress {
+        color: green;
+    }
+    & p.unstarted {
+        color: orange;
+    }
+    & p.shelved {
+        color: red;
+    }
+    
+}
+
+.header-link {
+    // display: none;
+    opacity: 0;
+
+    position: absolute;
+
+    color: #909090f0;
+
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: inherit;
+    font-weight: 400;
+    text-decoration: none;
+
+    padding: 0 .6em ;
+
+    transition: 150ms;
+    &:hover {
+        // display: inline;
+        opacity: 1;
+
+        margin: 0;
+        
+        color: #f5f2e8;
+        text-decoration: underline;
+        border-radius: 5px;
+    }
 }
 
 summary {
@@ -226,7 +299,7 @@ summary {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 
-    margin-top   : .5rem;
+    margin-top   : 1.5rem;
     margin-bottom: .5rem;
     padding-left: $body_padding;
 }
@@ -240,11 +313,12 @@ p {
 }
 
 footer {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
+    margin-top: .5rem;
+    margin-bottom: 0;
     padding: 1rem;
 
     
-    background-color: blue;
+    font-family: "Raleway", sans-serif;
+    background-color: #00000030;
+    color: white;
 }
