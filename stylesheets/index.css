@@ -100,7 +100,7 @@ header {
   -moz-box-sizing: border-box;
   overflow-y: scroll;
   scrollbar-color: #90909050 #44444450;
-  scrollbar-width: thin;
+  scrollbar-width: thick;
 }
 
 #content {
@@ -114,7 +114,6 @@ header {
 
 .category {
   position: relative;
-  margin-bottom: 2rem;
   padding: .2rem 1.5rem;
   border-radius: 4px;
   margin-top: 0;
@@ -194,20 +193,20 @@ header {
   font-style: italic;
 }
 
-.project-meta p.archived {
+.project-meta .archived {
   color: grey;
   font-weight: 300;
 }
 
-.project-meta p.in-progress {
+.project-meta .in-progress {
   color: green;
 }
 
-.project-meta p.unstarted {
+.project-meta .unstarted {
   color: orange;
 }
 
-.project-meta p.shelved {
+.project-meta .shelved {
   color: red;
 }
 
@@ -249,11 +248,60 @@ p {
 }
 
 footer {
-  margin-top: .5rem;
+  margin-top: 1rem;
   margin-bottom: 0;
-  padding: 1rem;
-  font-family: "Raleway", sans-serif;
-  background-color: #00000030;
+  padding: 0;
   color: white;
+  font-family: "Raleway", sans-serif;
+  background-color: #44444430;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+footer a {
+  color: blue;
+}
+
+footer .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6rem;
+  -webkit-column-gap: .5%;
+          column-gap: .5%;
+  word-wrap: break-word;
+}
+
+footer .grid > .grid-child {
+  padding: 1rem;
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  float: center;
+  background-color: #40404040;
+}
+
+footer address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+footer address > * {
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  padding: 0;
+  padding-left: 1em;
+  margin: 0;
 }
 /*# sourceMappingURL=index.css.map */

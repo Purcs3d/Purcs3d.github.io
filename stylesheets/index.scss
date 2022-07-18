@@ -131,7 +131,7 @@ header {
     // TODO chrome and safari scollbar
     overflow-y: scroll;
     scrollbar-color: #90909050 #44444450;
-    scrollbar-width: thin;
+    scrollbar-width: thick;
 
 }
 
@@ -149,15 +149,15 @@ header {
 
     font-family: 'Anonymous Pro', serif;
 }
-    
+
 .category {
     position: relative;
 
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
     padding: .2rem 1.5rem;
 
 
-    // background-color: #44444450;
+    // background-color: blue;
     border-radius: 4px;
 
     margin-top: 0;
@@ -246,21 +246,21 @@ header {
         font-size: inherit;
     }
     
-    & time {
+    time {
         font-style: italic;
     }
 
-    & p.archived {
+    .archived {
         color: grey;
         font-weight: 300;
     }
-    & p.in-progress {
+    .in-progress {
         color: green;
     }
-    & p.unstarted {
+    .unstarted {
         color: orange;
     }
-    & p.shelved {
+    .shelved {
         color: red;
     }
     
@@ -313,12 +313,56 @@ p {
 }
 
 footer {
-    margin-top: .5rem;
+    margin-top   : 1rem;
     margin-bottom: 0;
-    padding: 1rem;
+    padding      : 0;
 
-    
-    font-family: "Raleway", sans-serif;
-    background-color: #00000030;
     color: white;
+    font-family: "Raleway", sans-serif;
+
+    background-color: #44444430;
+    border-radius: .5rem;
+    overflow: hidden;
+
+    // text-align: center;
+
+    a {
+        color: blue;
+    }
+    
+    .grid {
+        display: flex;
+        height: 6rem;
+        column-gap: .5%;
+        
+        word-wrap: break-word;
+    }
+    .grid > .grid-child {
+        padding: 1rem;
+        margin: 0;
+         
+        flex: auto;
+        float: center;
+        
+        background-color: #40404040;
+    }
+
+    address {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        height: 100%;
+        width: 100%;
+    }
+    address > * {
+        flex: wrap;
+        
+        padding: 0;
+        padding-left: 1em;
+
+        margin: 0;
+    }
+
+
 }
