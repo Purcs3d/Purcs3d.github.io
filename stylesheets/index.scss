@@ -320,48 +320,60 @@ footer {
     color: white;
     font-family: "Raleway", sans-serif;
 
-    background-color: #44444430;
+    background-color: transparent;
     border-radius: .5rem;
     overflow: hidden;
 
     // text-align: center;
-
-    a {
-        color: blue;
-    }
     
     .grid {
         display: flex;
-        height: 6rem;
+        // height: 6rem;
         column-gap: .5%;
         
         word-wrap: break-word;
     }
     .grid > .grid-child {
+        background-color: #40404020;
+
         padding: 1rem;
         margin: 0;
          
         flex: auto;
         float: center;
-        
-        background-color: #40404040;
+        width: 50%;
+    }
+    .grid-child * {
+        // color: blue;
+        margin: 0;
+    }
+    .grid-child > h2 {
+        color: #ffffff50;
+        font-size: 1.2em;
+        margin-bottom: .5rem;
     }
 
     address {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        // display: grid;
+        // flex-wrap: wrap;
+        // flex-direction: row;
+        // justify-content: space-evenly;
+
+        display: grid; /* 1 */
+        grid-template-columns: repeat(auto-fill, 100px); /* 2 */
+        grid-gap: 1rem; /* 3 */
+        justify-content: space-between; /* 4 */
 
         height: 100%;
-        width: 100%;
+    
     }
     address > * {
         flex: wrap;
-        
-        padding: 0;
-        padding-left: 1em;
-
-        margin: 0;
+        padding-left: 1rem;
+    }
+    address a {
+        color: beige;
+        font-style: normal;
     }
 
 
