@@ -350,11 +350,14 @@ footer {
     .grid-child > * {
         margin-top: 1rem;
         margin-top: 1rem;
+        margin-left: .8rem;
     }
     .grid-child > h2 {
         color: #ffffff50;
         font-size: 1.2em;
+
         margin-bottom: .5rem;
+        margin-left: .3rem;
     }
 
     address {
@@ -363,27 +366,44 @@ footer {
         // flex-direction: row;
         // justify-content: space-evenly;
 
-
-        display: grid; 
-        grid-template-columns: repeat(auto-fit, 49%); 
-        grid-gap: .3rem; 
-        justify-content: space-between; 
-
-        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        // grid-template-rows: repeat(6, 100%);
+        gap: 0;
+        margin-left: .3rem !important;
         
         a {
-            display: block;
+            display: flexbox;
+
+            margin-left: 1rem;
+            padding-left: 0;
+
             color: #ffa900;
             font-style: normal;
             font-weight: bold;
+
+            text-decoration: none;
             
+            &:after {
+                content: "❯";
+                float: right;
+                
+                margin-right: 3rem;
+                transition-duration: 250ms;
+            }
+
             &:hover {
                 color: grey;
+                padding-left: 0rem;
+
+                &:after {
+                    margin-right: 2rem;
+                }
             }
         }
         
         & > * {
-            background-color: #90909020;
+            // background-color: #90909020;
 
             padding-left: 2rem;
             padding-bottom: .2rem;
