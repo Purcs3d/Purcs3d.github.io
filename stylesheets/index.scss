@@ -311,6 +311,8 @@ p {
 }
 
 footer {
+    background-color: #0D0F15;
+
     margin-top   : 1rem;
     margin-bottom: 0;
     padding      : 0;
@@ -319,32 +321,34 @@ footer {
     font-family: "Raleway", sans-serif;
 
     // text-align: center;
-    
+    border-radius: 0 0 1rem 1rem;
     .grid {
-        display: flex;
-        // height: 6rem;
-        column-gap: .2rem;
+        display: grid;
+        grid-template-columns: repeat(max(2), 50%);
+        grid-template-rows: repeat(auto-fit, auto);
+        gap: 0;
         
         word-wrap: break-word;
-        background-color: #ffa900;
-
+        
         border-radius: 0 0 1rem 1rem;
     }
     .grid > .grid-child {
-        background-color: #0D0F15;
-
+        // background-color: #0D0F15;
+        background-color: blue;
+        
         padding: .5rem 1rem .5rem 1rem;
         margin: 0;
-
+        
         flex: auto;
         float: center;
-        width: 50%;
-        
-        &:first-child {
-            border-bottom-left-radius: .5rem;
+
+        // every child 
+        &:nth-child(odd):not(:last-child) {
+            border-right: #ffa900 solid .2rem;
         }
-        &:last-child {
-            border-bottom-right-radius: .5rem;
+        // every child except first and second (aka top row children)
+        &:not(:first-child):not(:nth-child(2)) {
+            border-top: #ffa900 solid .2rem;
         }
     }
     .grid-child > * {
@@ -367,37 +371,52 @@ footer {
         // justify-content: space-evenly;
 
         display: grid;
-        grid-template-columns: repeat(2, 50%);
-        // grid-template-rows: repeat(6, 100%);
+        grid-template-columns: repeat(auto-fit, minmax(1rem, 13rem));
+        // grid-template-rows: repeat(2, 100%);
+        justify-content: space-between;
         gap: 0;
-        margin-left: .3rem !important;
+        margin-left: .3rem;
         
         a {
             display: flexbox;
 
-            margin-left: 1rem;
-            padding-left: 0;
+            // margin-left: 1rem;
+            padding: .5rem 1rem;
+            margin: 0;
 
             color: #ffa900;
             font-style: normal;
             font-weight: bold;
 
+            text-align: center;
             text-decoration: none;
             
+            &:before {
+                content: '❮';
+
+                margin-right: 1rem;
+
+                transition-duration: 250ms;
+            }
             &:after {
                 content: "❯";
-                float: right;
                 
-                margin-right: 3rem;
+                margin-left: 1rem;
+
                 transition-duration: 250ms;
             }
 
             &:hover {
                 color: grey;
-                padding-left: 0rem;
+                // padding-left: 0rem;
+                margin: 0;
+                padding: .5rem 1rem;
 
                 &:after {
-                    margin-right: 2rem;
+                    margin-left: .5rem;
+                }
+                &::before {
+                    margin-right: .5rem;
                 }
             }
         }
