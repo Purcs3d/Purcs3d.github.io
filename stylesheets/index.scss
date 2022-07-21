@@ -173,7 +173,7 @@ header {
         bottom: 0;
         left: 0;
         
-        background: beige;
+        background: #ffa900;
         
         border-radius: 1px;   
     }   
@@ -191,8 +191,6 @@ header {
     font-weight: 400;
     
     &:hover .header-link {
-        // background-color: blue;
-        // display: inline;
         opacity: 1;
     }
 }
@@ -320,9 +318,6 @@ footer {
     color: white;
     font-family: "Raleway", sans-serif;
 
-    background-color: transparent;
-    border-radius: .5rem;
-
     // text-align: center;
     
     .grid {
@@ -331,20 +326,30 @@ footer {
         column-gap: .2rem;
         
         word-wrap: break-word;
-        background-color: yellow;
+        background-color: #ffa900;
+
+        border-radius: 0 0 1rem 1rem;
     }
     .grid > .grid-child {
         background-color: #0D0F15;
 
-        padding: 1rem;
+        padding: .5rem 1rem .5rem 1rem;
         margin: 0;
-         
+
         flex: auto;
         float: center;
         width: 50%;
+        
+        &:first-child {
+            border-bottom-left-radius: .5rem;
+        }
+        &:last-child {
+            border-bottom-right-radius: .5rem;
+        }
     }
     .grid-child > * {
-        margin: 0;
+        margin-top: 1rem;
+        margin-top: 1rem;
     }
     .grid-child > h2 {
         color: #ffffff50;
@@ -359,16 +364,16 @@ footer {
         // justify-content: space-evenly;
 
 
-        // display: grid; 
-        // grid-template-columns: repeat(auto-fill, 100px); 
-        // grid-gap: .3rem; 
-        // justify-content: space-evenly; 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, 49%); 
+        grid-gap: .3rem; 
+        justify-content: space-between; 
 
         height: auto;
         
         a {
             display: block;
-            color: black;
+            color: #ffa900;
             font-style: normal;
             font-weight: bold;
             
@@ -378,19 +383,18 @@ footer {
         }
         
         & > * {
-            background-color: yellow;
+            background-color: #90909020;
 
             padding-left: 2rem;
-            padding-bottom: .5rem;
-            padding-top: .5rem;
+            padding-bottom: .2rem;
+            padding-top: .2rem;
 
-            border-radius: 2px 8px 8px  2px;
-            
+            border-radius: 2px;
+
+            &:hover {
+                padding-left: 20%;
+            }
         }
-        & > *:not(:last-child) {
-            margin-bottom: 10px;
-        }
-        
 
     }
 
