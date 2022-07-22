@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="4946.7114"
+   height="2557.0354"
+   viewBox="0 0 1308.817 676.54921"
+   version="1.1"
+   id="svg146"
+   sodipodi:docname="MINOREOPUS.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview148"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="0.12811322"
+     inkscape:cx="1963.1073"
+     inkscape:cy="3055.8907"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="152"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg146"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs134">
+    <filter
+       id="prefix__R"
+       x="-0.0014541323"
+       y="-0.0028250879"
+       width="1.0029083"
+       height="1.0056502"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="0.6391208"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       id="prefix__v"
+       x="-0.0020000001"
+       y="-0.0040000002"
+       width="1.005"
+       height="1.0089999"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".999"
+         id="feGaussianBlur5" />
+    </filter>
+    <filter
+       id="prefix__w"
+       x="-0.0040000002"
+       y="-0.222"
+       width="1.0599999"
+       height="1.444"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".329"
+         id="feGaussianBlur8" />
+    </filter>
+    <filter
+       id="prefix__x"
+       x="-0.0020000001"
+       y="-0.0040000002"
+       width="1.005"
+       height="1.0089999"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".999"
+         id="feGaussianBlur11" />
+    </filter>
+    <filter
+       id="prefix__y"
+       x="-0.0040000002"
+       y="-0.0099999998"
+       width="1.008"
+       height="1.02"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur14" />
+    </filter>
+    <filter
+       id="prefix__z"
+       x="-0.0020000001"
+       y="-0.0080000004"
+       width="1.005"
+       height="1.016"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur17" />
+    </filter>
+    <filter
+       id="prefix__A"
+       x="-0.0020000001"
+       y="-0.0080000004"
+       width="1.005"
+       height="1.016"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur20" />
+    </filter>
+    <filter
+       id="prefix__B"
+       x="-0.0040000002"
+       y="-0.0099999998"
+       width="1.008"
+       height="1.02"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur23" />
+    </filter>
+    <filter
+       id="prefix__C"
+       x="-0.003"
+       y="-0.083999999"
+       width="1.006"
+       height="1.168"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".753"
+         id="feGaussianBlur26" />
+    </filter>
+    <filter
+       id="prefix__D"
+       x="-0.0020000001"
+       y="-0.0080000004"
+       width="1.005"
+       height="1.016"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur29" />
+    </filter>
+    <filter
+       id="prefix__E"
+       x="-0.0040000002"
+       y="-0.0099999998"
+       width="1.008"
+       height="1.02"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur32" />
+    </filter>
+    <filter
+       id="prefix__F"
+       x="-0.003"
+       y="-0.085000001"
+       width="1.006"
+       height="1.171"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".753"
+         id="feGaussianBlur35" />
+    </filter>
+    <filter
+       id="prefix__G"
+       x="-0.0020000001"
+       y="-0.0080000004"
+       width="1.005"
+       height="1.016"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur38" />
+    </filter>
+    <filter
+       id="prefix__H"
+       x="-0.0040000002"
+       y="-0.0099999998"
+       width="1.008"
+       height="1.02"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur41" />
+    </filter>
+    <filter
+       id="prefix__I"
+       x="-0.003"
+       y="-0.085000001"
+       width="1.006"
+       height="1.171"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".753"
+         id="feGaussianBlur44" />
+    </filter>
+    <filter
+       id="prefix__J"
+       x="-0.0020000001"
+       y="-0.0080000004"
+       width="1.005"
+       height="1.016"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur47" />
+    </filter>
+    <filter
+       id="prefix__K"
+       x="-0.0040000002"
+       y="-0.0099999998"
+       width="1.008"
+       height="1.02"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur50" />
+    </filter>
+    <filter
+       id="prefix__L"
+       x="-0.003"
+       y="-0.083999999"
+       width="1.006"
+       height="1.168"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".753"
+         id="feGaussianBlur53" />
+    </filter>
+    <filter
+       id="prefix__M"
+       x="-0.0020000001"
+       y="-0.0080000004"
+       width="1.005"
+       height="1.016"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur56" />
+    </filter>
+    <filter
+       id="prefix__N"
+       x="-0.0040000002"
+       y="-0.0099999998"
+       width="1.008"
+       height="1.02"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".701"
+         id="feGaussianBlur59" />
+    </filter>
+    <filter
+       id="prefix__O"
+       x="-0.003"
+       y="-0.083999999"
+       width="1.006"
+       height="1.168"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".753"
+         id="feGaussianBlur62" />
+    </filter>
+    <filter
+       id="prefix__P"
+       x="-0.0020000001"
+       y="-0.0040000002"
+       width="1.005"
+       height="1.0089999"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".999"
+         id="feGaussianBlur65" />
+    </filter>
+    <filter
+       id="prefix__Q"
+       x="-0.0020000001"
+       y="-0.0040000002"
+       width="1.005"
+       height="1.0089999"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation=".999"
+         id="feGaussianBlur68" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__a">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path71" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__b">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path74" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__c">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path77" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__d">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path80" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__e">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path83" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__f">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path86" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__g">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path89" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__h">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path92" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__i">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path95" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__j">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path98" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__k">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path101" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__l">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path104" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__m">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path107" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__n">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path110" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__o">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path113" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__p">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path116" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__q">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path119" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__r">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path122" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__s">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path125" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__t">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path128" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="prefix__u">
+      <path
+         d="m 11.44,-5956.822 h 105.603 v 278.592 H 11.441 Z"
+         stroke-width="2.881"
+         stroke-linecap="round"
+         id="path131" />
+    </clipPath>
+  </defs>
+  <g
+     transform="matrix(1.23515,0,0,1.23515,-11338.687,6573.5643)"
+     fill="#ffffff"
+     filter="url(#prefix__R)"
+     font-family="Bebas"
+     word-spacing="0"
+     id="g144"
+     style="filter:url(#prefix__R)">
+    <g
+       aria-label="MINORE"
+       style="line-height:1.25;-inkscape-font-specification:Bebas"
+       font-size="295.239px"
+       letter-spacing="-1.058"
+       stroke-width="1.538"
+       id="g138">
+      <path
+         d="m 9323.853,-5311.584 c -12.04,61.166 -24.384,123.866 -36.427,185.03 -0.412,2.092 -1.094,2.095 -1.524,0 -12.588,-61.168 -25.494,-123.873 -38.085,-185.043 -0.43,-2.09 -2.508,-3.782 -4.64,-3.782 h -56.91 a 3.861,3.861 0 0 0 -3.862,3.86 v 293.9 a 3.861,3.861 0 0 0 3.861,3.862 h 37.09 a 3.861,3.861 0 0 0 3.861,-3.861 v -199.105 c 0,-2.132 0.35,-2.168 0.78,-0.08 13.587,65.868 27.515,133.398 41.099,199.264 0.43,2.088 2.508,3.781 4.64,3.781 h 24.164 c 2.132,0 4.21,-1.693 4.641,-3.781 13.587,-65.866 27.515,-133.396 41.098,-199.264 0.431,-2.088 0.78,-2.053 0.78,0.08 v 199.105 a 3.861,3.861 0 0 0 3.862,3.861 h 37.951 a 3.861,3.861 0 0 0 3.862,-3.861 v -293.9 a 3.861,3.861 0 0 0 -3.862,-3.861 h -57.772 c -2.133,0 -4.196,1.696 -4.607,3.788 z m 118.54,297.834 h 37.952 a 3.861,3.861 0 0 0 3.861,-3.862 v -293.9 a 3.861,3.861 0 0 0 -3.861,-3.861 h -37.952 a 3.861,3.861 0 0 0 -3.861,3.861 v 293.9 a 3.861,3.861 0 0 0 3.861,3.862 z m 94.113,0 h 37.09 a 3.861,3.861 0 0 0 3.86,-3.862 v -185.315 a 0.59,0.59 0 0 1 1.153,-0.176 l 58.02,185.667 a 5.252,5.252 0 0 0 5.014,3.686 h 40.536 a 3.861,3.861 0 0 0 3.862,-3.862 v -293.9 a 3.861,3.861 0 0 0 -3.862,-3.861 h -37.09 a 3.861,3.861 0 0 0 -3.86,3.861 v 194.796 a 0.544,0.544 0 0 1 -1.067,0.15 l -56.038,-195.096 a 5.127,5.127 0 0 0 -4.927,-3.711 h -42.691 a 3.861,3.861 0 0 0 -3.862,3.861 v 293.9 a 3.861,3.861 0 0 0 3.862,3.862 z m 267.346,4.309 c 43.95,0 73.251,-29.3 73.251,-72.82 v -164.6 c 0,-43.52 -29.3,-72.82 -73.251,-72.82 -43.95,0 -73.251,29.3 -73.251,72.82 v 164.6 c 0,43.52 29.3,72.82 73.251,72.82 z m 0,-43.09 c -16.805,0 -27.577,-10.772 -27.577,-29.73 v -164.6 c 0,-18.96 10.772,-29.732 27.577,-29.732 16.805,0 27.577,10.772 27.577,29.731 v 164.6 c 0,18.96 -10.772,29.732 -27.577,29.732 z m 266.705,35.066 -36.237,-127.44 c -0.583,-2.05 0.429,-4.603 2.18,-5.819 16.968,-11.772 27.18,-31.05 28.144,-55.651 0.08,-2.131 0.07,-5.59 0.07,-7.722 v -25.456 c 0,-2.133 0.01,-5.591 -0.07,-7.722 -1.563,-40.06 -27.556,-66.435 -67.593,-68.022 -2.13,-0.085 -5.589,-0.076 -7.721,-0.076 h -63.805 a 3.861,3.861 0 0 0 -3.862,3.861 v 293.9 a 3.861,3.861 0 0 0 3.862,3.862 h 37.951 a 3.861,3.861 0 0 0 3.862,-3.862 v -116.804 a 3.861,3.861 0 0 1 3.861,-3.861 h 15.976 a 5.025,5.025 0 0 1 4.856,3.73 l 31.19,117.065 a 5.025,5.025 0 0 0 4.855,3.732 h 39.675 a 2.917,2.917 0 0 0 2.806,-3.715 z m -99.358,-254.819 h 15.976 c 2.133,0 5.595,-0.023 7.718,0.174 14.062,1.306 22.672,9.915 23.978,23.978 0.197,2.122 0.174,5.585 0.174,7.717 v 27.18 c 0,2.132 0.02,5.594 -0.174,7.717 -1.306,14.063 -9.916,22.672 -23.978,23.978 -2.123,0.197 -5.585,0.174 -7.718,0.174 H 9971.2 a 3.861,3.861 0 0 1 -3.861,-3.862 v -83.195 a 3.861,3.861 0 0 1 3.861,-3.861 z m 140.218,258.534 h 121.975 a 3.861,3.861 0 0 0 3.862,-3.862 v -35.366 a 3.861,3.861 0 0 0 -3.862,-3.861 h -76.3 a 3.861,3.861 0 0 1 -3.862,-3.862 v -80.61 a 3.861,3.861 0 0 1 3.862,-3.86 h 59.064 a 3.861,3.861 0 0 0 3.862,-3.862 v -35.366 a 3.861,3.861 0 0 0 -3.862,-3.862 h -59.064 a 3.861,3.861 0 0 1 -3.862,-3.861 v -76.3 a 3.861,3.861 0 0 1 3.862,-3.862 h 76.3 a 3.861,3.861 0 0 0 3.862,-3.861 v -35.367 a 3.861,3.861 0 0 0 -3.862,-3.861 h -121.975 a 3.861,3.861 0 0 0 -3.861,3.861 v 293.9 a 3.861,3.861 0 0 0 3.861,3.862 z"
+         id="path136" />
+    </g>
+    <g
+       aria-label="OPUS"
+       style="line-height:1.25;-inkscape-font-specification:Bebas"
+       font-size="233.807px"
+       letter-spacing="0"
+       stroke-width="1.218"
+       id="g142">
+      <path
+         d="m 9366.91,-4776.728 c 34.806,0 58.01,-23.204 58.01,-57.668 v -130.35 c 0,-34.465 -23.204,-57.67 -58.01,-57.67 -34.806,0 -58.01,23.205 -58.01,57.67 v 130.35 c 0,34.464 23.204,57.668 58.01,57.668 z m 0,-34.123 c -13.308,0 -21.839,-8.531 -21.839,-23.545 v -130.35 c 0,-15.015 8.53,-23.546 21.839,-23.546 13.308,0 21.839,8.53 21.839,23.545 v 130.35 c 0,15.015 -8.531,23.546 -21.84,23.546 z m 98.383,30.711 h 28.447 a 3.861,3.861 0 0 0 3.862,-3.862 v -89.187 a 3.861,3.861 0 0 1 3.861,-3.861 h 12.751 c 2.133,0 5.592,0.014 7.721,-0.097 30.984,-1.561 51.152,-22.023 52.69,-53.03 0.105,-2.129 0.095,-5.588 0.095,-7.72 v -20.259 c 0,-2.132 0.015,-5.591 -0.095,-7.721 -1.538,-31.007 -21.706,-51.468 -52.69,-53.03 -2.13,-0.106 -5.588,-0.096 -7.72,-0.096 h -48.922 a 3.861,3.861 0 0 0 -3.862,3.861 v 231.14 a 3.861,3.861 0 0 0 3.862,3.861 z m 32.309,-134.895 v -65.983 a 3.861,3.861 0 0 1 3.861,-3.862 h 11.045 c 2.133,0 5.598,-0.032 7.714,0.223 10.4,1.25 16.856,7.705 18.105,18.105 0.254,2.116 0.223,5.581 0.223,7.714 v 21.623 c 0,2.133 0.032,5.598 -0.223,7.714 -1.25,10.4 -7.705,16.856 -18.105,18.105 -2.116,0.254 -5.581,0.223 -7.714,0.223 h -11.045 a 3.861,3.861 0 0 1 -3.861,-3.862 z m 166.286,138.203 c 29.721,-1.618 50.058,-21.978 51.659,-51.998 0.114,-2.13 0.102,-5.589 0.102,-7.722 v -178.59 a 3.861,3.861 0 0 0 -3.861,-3.86 h -27.766 a 3.861,3.861 0 0 0 -3.861,3.86 v 178.59 c 0,2.133 0.032,5.599 -0.23,7.714 -1.253,10.11 -7.502,16.284 -16.057,17.682 -2.103,0.344 -5.589,0.344 -7.69,0 -8.556,-1.398 -14.806,-7.572 -16.058,-17.682 -0.262,-2.115 -0.23,-5.581 -0.23,-7.714 v -178.59 a 3.861,3.861 0 0 0 -3.862,-3.86 h -28.448 a 3.861,3.861 0 0 0 -3.861,3.86 v 178.59 c 0,2.133 -0.015,5.592 0.105,7.721 1.648,30.022 22.568,50.382 52.339,51.999 2.13,0.115 5.59,0.115 7.719,0 z m 143.999,0 c 31.093,-1.696 52.723,-23.888 54.388,-54.728 0.115,-2.13 0.114,-5.59 0.017,-7.72 -1.063,-23.514 -12.255,-40.574 -43.257,-71.886 -1.5,-1.516 -3.947,-3.959 -5.447,-5.475 -21.283,-21.51 -28.977,-32.279 -30.197,-44.933 -0.205,-2.121 -0.205,-5.589 -0.015,-7.712 1.02,-11.036 6.573,-17.4 15.772,-18.74 2.109,-0.306 5.595,-0.313 7.692,0.058 9.399,1.663 14.993,9.722 15.837,23.798 0.127,2.128 0.112,5.588 0.112,7.72 a 3.097,3.097 0 0 0 3.84,2.55 l 27.126,-2.926 a 4.3,4.3 0 0 0 3.84,-4.275 c 0,-1.26 0.014,-4.01 -0.082,-6.142 -1.371,-32.303 -20.085,-53.458 -50.998,-55.073 -2.13,-0.11 -5.59,-0.11 -7.72,0 -30.9,1.614 -49.612,22.742 -50.995,54.732 -0.092,2.13 -0.094,5.59 0,7.721 0.974,23.605 11.336,41.495 43.188,71.964 1.541,1.474 4.056,3.848 5.591,5.328 22.365,21.554 29.118,32.333 30.158,45 0.175,2.125 0.183,5.595 -0.087,7.709 -1.346,10.54 -8.326,17.47 -19.114,18.784 -2.115,0.257 -5.592,0.262 -7.7,-0.044 -11.043,-1.606 -18.096,-10.275 -19.203,-23.853 -0.173,-2.125 -0.153,-5.586 -0.153,-7.719 v -1.15 a 3.467,3.467 0 0 0 -3.84,-3.447 l -27.126,2.926 a 4.3,4.3 0 0 0 -3.84,4.275 v 0.808 c 0,2.133 -0.014,5.592 0.104,7.721 1.665,30.84 23.295,53.033 54.388,54.728 2.13,0.117 5.59,0.117 7.719,0 z"
+         id="path140" />
+    </g>
+  </g>
+</svg>
