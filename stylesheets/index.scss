@@ -382,7 +382,7 @@ footer {
         // justify-content: space-evenly;
 
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(1rem, 10rem));
+        grid-template-columns: repeat(auto-fill, minmax(1rem, 14rem));
         // grid-template-rows: repeat(2, 100%);
         margin-left: 0 !important;
         justify-content: space-between;
