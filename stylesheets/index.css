@@ -186,6 +186,9 @@ header {
   color: grey;
   font-weight: 300;
 }
+.project-meta .done {
+  color: lightgreen;
+}
 .project-meta .in-progress {
   color: green;
 }
@@ -193,6 +196,43 @@ header {
   color: orange;
 }
 .project-meta .shelved {
+  color: red;
+}
+
+.project-part {
+  position: relative;
+  padding-left: 3%;
+}
+.project-part::before {
+  content: "";
+  height: calc(100% - 30px);
+  width: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  background: rgba(255, 169, 0, 0.5019607843);
+  border-radius: 1px;
+}
+
+.part-meta h5 {
+  font-size: 1.2em;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 200;
+}
+.part-meta .archived {
+  color: grey;
+  font-weight: 300;
+}
+.part-meta .done {
+  color: lightgreen;
+}
+.part-meta .in-progress {
+  color: green;
+}
+.part-meta .unstarted {
+  color: orange;
+}
+.part-meta .shelved {
   color: red;
 }
 
@@ -215,7 +255,7 @@ header {
   border-radius: 5px;
 }
 
-summary {
+.project summary {
   font-size: 1.4em;
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -223,12 +263,11 @@ summary {
   margin-bottom: 0.5rem;
   padding-left: 3%;
 }
-
-p {
+.project p {
+  padding-left: 3%;
   font-size: 1.2em;
   font-family: "Anonymous Pro", serif;
   font-weight: 300;
-  padding-left: 3%;
 }
 
 footer {
@@ -279,6 +318,12 @@ footer .grid-child > h2 {
   font-size: 1.2em;
   margin-bottom: 0.5rem;
   margin-left: 0.3rem;
+}
+footer p {
+  padding-left: 3%;
+  font-size: 1.2em;
+  font-family: "Anonymous Pro", serif;
+  font-weight: 300;
 }
 footer address {
   display: grid;

@@ -232,7 +232,7 @@ header {
     }
 }
 .project-meta {
-    color: #ffffff50;
+    color: #ffffff50 ;
     font-family: 'Anonymous Pro';
     font-size: 1em;
     font-weight: 300;
@@ -252,6 +252,9 @@ header {
         color: grey;
         font-weight: 300;
     }
+    .done {
+        color: lightgreen;
+    }
     .in-progress {
         color: green;
     }
@@ -262,6 +265,51 @@ header {
         color: red;
     }
     
+}
+
+.project-part {
+    position: relative;
+    padding-left: $body_padding;
+
+    &::before {
+        content: "";
+
+        height: calc(100% - 30px);
+        width: 4px;
+
+        position: absolute;
+        bottom: 0;
+        left: 10;
+        
+        background: #ffa90080;
+        
+        border-radius: 1px;   
+    }
+}
+.part-meta {
+    h5 {
+        font-size: 1.2em;
+        font-family: "Anonymous Pro", sans-serif;
+        font-weight: 200;
+    }
+
+
+    .archived {
+        color: grey;
+        font-weight: 300;
+    }
+    .done {
+        color: lightgreen;
+    }
+    .in-progress {
+        color: green;
+    }
+    .unstarted {
+        color: orange;
+    }
+    .shelved {
+        color: red;
+    }
 }
 
 .header-link {
@@ -291,23 +339,27 @@ header {
         border-radius: 5px;
     }
 }
+.project{
+    summary {
+        font-size: 1.4em;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    
+        margin-top   : 1.5rem;
+        margin-bottom: .5rem;
+        padding-left: $body_padding;
+    }
+    
+    p {
+        padding-left: $body_padding;
 
-summary {
-    font-size: 1.4em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+        font-size: 1.2em;
+        // font-size: 16px;
+        font-family: 'Anonymous Pro', serif;
+        font-weight: 300;
+    
+    }
 
-    margin-top   : 1.5rem;
-    margin-bottom: .5rem;
-    padding-left: $body_padding;
-}
-p {
-    font-size: 1.2em;
-    // font-size: 16px;
-    font-family: 'Anonymous Pro', serif;
-    font-weight: 300;
-
-    padding-left: $body_padding;
 }
 
 footer {
@@ -334,7 +386,6 @@ footer {
     }
     .grid > .grid-child {
         background-color: #0D0F15;
-        // background-color: darkorange;
         
         padding: .5rem 1rem .5rem 1rem;
         margin: 0;
@@ -373,6 +424,14 @@ footer {
 
         margin-bottom: .5rem;
         margin-left: .3rem;
+    }
+
+    p {
+        padding-left: $body_padding;
+
+        font-size: 1.2em;
+        font-family: 'Anonymous Pro', serif;
+        font-weight: 300;
     }
 
     address {
