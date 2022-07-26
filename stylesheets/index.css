@@ -171,13 +171,13 @@ header {
 .project-meta {
   color: rgba(255, 255, 255, 0.3137254902);
   font-family: "Anonymous Pro";
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 300;
 }
 .project-meta > * {
-  margin: inherit;
-  padding: inherit;
-  font-size: inherit;
+  margin: inherit !important;
+  padding: inherit !important;
+  font-size: inherit !important;
 }
 .project-meta time {
   font-style: italic;
@@ -205,7 +205,7 @@ header {
 }
 .project-part::before {
   content: "";
-  height: calc(100% - 30px);
+  height: calc(100% - 27px);
   width: 4px;
   position: absolute;
   bottom: 0;
@@ -214,10 +214,24 @@ header {
   border-radius: 1px;
 }
 
+.part-meta {
+  color: rgba(255, 255, 255, 0.3137254902);
+}
 .part-meta h5 {
-  font-size: 1.2em;
-  font-family: "Anonymous Pro", sans-serif;
-  font-weight: 200;
+  color: rgba(255, 169, 0, 0.8156862745);
+  font-size: 1.3em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.part-meta h5 .head-text {
+  color: beige;
+}
+.part-meta > *:not(h5) {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-left: 16px !important;
+  font-size: 1em !important;
 }
 .part-meta .archived {
   color: grey;

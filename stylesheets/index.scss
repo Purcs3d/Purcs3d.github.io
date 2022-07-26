@@ -234,14 +234,14 @@ header {
 .project-meta {
     color: #ffffff50 ;
     font-family: 'Anonymous Pro';
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 300;
     
-    & > *{
-        margin: inherit;
-        padding: inherit;
+    & > * {
+        margin: inherit !important;
+        padding: inherit !important;
         
-        font-size: inherit;
+        font-size: inherit !important;
     }
     
     time {
@@ -274,7 +274,7 @@ header {
     &::before {
         content: "";
 
-        height: calc(100% - 30px);
+        height: calc(100% - 27px);
         width: 4px;
 
         position: absolute;
@@ -287,12 +287,29 @@ header {
     }
 }
 .part-meta {
+    color: #ffffff50 ;
+
     h5 {
-        font-size: 1.2em;
-        font-family: "Anonymous Pro", sans-serif;
-        font-weight: 200;
+        color: #ffa900d0;
+        font-size: 1.3em;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        margin-bottom: 0;
+        
+        .head-text {
+            color: beige;
+        }
     }
 
+
+    & > *:not(h5) {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-left: 16px !important;
+
+        font-size: 1em !important;
+
+    }
 
     .archived {
         color: grey;
