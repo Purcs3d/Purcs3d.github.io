@@ -36,7 +36,7 @@ body {
 }
 
 .c {
-    mask: url('test.svg') no-repeat;
+    mask: url('c.svg') no-repeat;
 
     mask-mode: luminance;
     mask-size: cover
