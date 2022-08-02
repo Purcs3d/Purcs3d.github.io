@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap");
 :root {
+  background-color: #06080f;
+  color: #f5f2e8;
+}
+
+:root {
   font-family: "Lato";
   font-weight: 300;
   font-size: normal;
@@ -15,7 +20,7 @@ a {
   transition: 150ms;
 }
 a:hover {
-  color: beige;
+  color: #f5f2e8;
 }
 
 header {
@@ -105,7 +110,7 @@ header {
   margin: 0 auto;
   background-color: transparent;
   border-radius: 3px;
-  color: beige;
+  color: #f5f2e8;
   font-family: "Anonymous Pro", serif;
 }
 
@@ -198,6 +203,35 @@ header {
 .project-meta .shelved {
   color: red;
 }
+.project-meta .icon-box {
+  color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+.project-meta .icon-box .icon {
+  background-color: #ffa900;
+  height: 1.2em;
+  width: 1.2em;
+  mask-mode: luminance !important;
+  -webkit-mask-size: contain !important;
+          mask-size: contain !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+}
+.project-meta .icon-box .icon.c-lang {
+  -webkit-mask: url(/img/legends/c.svg) no-repeat;
+          mask: url(/img/legends/c.svg) no-repeat;
+}
+.project-meta .icon-box .icon.inkscape {
+  -webkit-mask: url(/img/legends/inkscape.svg) no-repeat;
+          mask: url(/img/legends/inkscape.svg) no-repeat;
+}
+.project-meta .icon-box .icon.cpp {
+  -webkit-mask: url(/img/legends/cpp.svg) no-repeat;
+          mask: url(/img/legends/cpp.svg) no-repeat;
+}
 
 .project-part {
   position: relative;
@@ -210,7 +244,8 @@ header {
   position: absolute;
   bottom: 0;
   left: 10;
-  background: rgba(255, 169, 0, 0.5019607843);
+  background: #ffa900;
+  opacity: 50%;
   border-radius: 1px;
 }
 
@@ -218,14 +253,15 @@ header {
   color: rgba(255, 255, 255, 0.3137254902);
 }
 .part-meta h5 {
-  color: rgba(255, 169, 0, 0.8156862745);
+  color: #ffa900;
+  opacity: 82%;
   font-size: 1.3em;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   margin-bottom: 0;
 }
 .part-meta h5 .head-text {
-  color: beige;
+  color: #f5f2e8;
 }
 .part-meta > *:not(h5) {
   padding: 0 !important;
@@ -368,7 +404,8 @@ footer address a:after {
   transition-duration: 250ms;
 }
 footer address a:hover {
-  color: #f08400;
+  color: #ffa900;
+  filter: brightness(80%);
   margin: 0;
   padding: 0.5rem 1rem;
 }

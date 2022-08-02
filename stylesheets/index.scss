@@ -17,6 +17,7 @@ $cat_padding: 0;
 $project_padding: 1%;
 $body_padding: 3%;
 
+@import 'main';
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
 //TODO header should allow scroll of content
@@ -37,7 +38,7 @@ a {
     
     transition: 150ms;
     &:hover {
-        color: beige;
+        color: $prime_color;
     }
 }
 
@@ -103,7 +104,7 @@ header {
     bottom: 0%;
     right: 0%;
     
-    background-color: #f5f2e8;
+    background-color: $prime_color;
     mask-image: url(/img/lab_fuzz.svg);
     mask-size:  contain;
     mask-repeat: no-repeat;
@@ -145,7 +146,7 @@ header {
     background-color: transparent;
     border-radius: 3px;
 
-    color: beige;
+    color: $prime_color;
 
     font-family: 'Anonymous Pro', serif;
 }
@@ -173,7 +174,7 @@ header {
         bottom: 0;
         left: 0;
         
-        background: #ffa900;
+        background: $accent_color;
         
         border-radius: 1px;   
     }   
@@ -264,6 +265,43 @@ header {
     .shelved {
         color: red;
     }
+
+    .icon-box {
+        color: transparent;
+        
+        display: flex;
+        flex-direction: row;
+    
+        .icon {
+
+            background-color: $accent_color;
+
+            height: 1.2em;
+            width:  1.2em;
+    
+            mask-mode: luminance !important;
+            mask-size: contain   !important;
+    
+            margin-top: 0;
+            margin-bottom: 0;
+
+            padding: 0;
+            padding-left: .5rem;
+    
+            &.c-lang {
+                mask: url(/img/legends/c.svg) no-repeat;
+                
+            }
+            &.inkscape {
+                mask: url(/img/legends/inkscape.svg) no-repeat;
+            }
+            &.cpp {
+                mask: url(/img/legends/cpp.svg) no-repeat;
+            }
+    
+        }
+       
+    }
     
 }
 
@@ -281,7 +319,8 @@ header {
         bottom: 0;
         left: 10;
         
-        background: #ffa90080;
+        background: $accent_color;
+        opacity: 50%;
         
         border-radius: 1px;   
     }
@@ -290,14 +329,16 @@ header {
     color: #ffffff50 ;
 
     h5 {
-        color: #ffa900d0;
+        color: $accent_color;
+        opacity: 82%;
+
         font-size: 1.3em;
         font-family: "Raleway", sans-serif;
         font-weight: 500;
         margin-bottom: 0;
         
         .head-text {
-            color: beige;
+            color: $prime_color;
         }
     }
 
@@ -472,7 +513,7 @@ footer {
             padding: .5rem 1rem;
             margin: 0;
 
-            color: #ffa900;
+            color: $accent_color;
             font-style: normal;
             font-weight: bold;
 
@@ -495,7 +536,8 @@ footer {
             }
 
             &:hover {
-                color: #f08400;
+                color: $accent_color;
+                filter: brightness(80%);
                 // padding-left: 0rem;
                 margin: 0;
                 padding: .5rem 1rem;
