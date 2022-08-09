@@ -388,7 +388,6 @@ footer .grid > .grid-child:nth-last-child(2):nth-child(even) {
 footer .grid-child > * {
   margin-top: 1rem;
   margin-top: 1rem;
-  margin-left: 0.8rem;
 }
 footer .grid-child > h2 {
   color: rgba(255, 255, 255, 0.3137254902);
@@ -398,9 +397,14 @@ footer .grid-child > h2 {
 }
 footer p {
   padding-left: 1.5rem;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: "Anonymous Pro", serif;
   font-weight: 300;
+}
+footer p em {
+  font-size: 1.1em;
+  color: #ea6f7d;
+  font-style: normal;
 }
 footer address {
   display: grid;
@@ -416,7 +420,6 @@ footer address a {
   margin: 0;
   color: #ea6f7d;
   font-style: normal;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
 }

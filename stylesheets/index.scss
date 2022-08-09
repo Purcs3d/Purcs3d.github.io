@@ -1,6 +1,8 @@
 @import 'main';
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
+// backdrops
+$header_backdrop: url(../img/dark_drop.jpg); 
 
 // colors
 $in-progress: #ffb327;
@@ -95,7 +97,7 @@ a {
     left: 0%;
     position: absolute;
 
-    background-image: url(../img/dark_drop.jpg);
+    background-image: $header_backdrop;
     background-repeat: no-repeat;
     background-size: 120%;
 
@@ -501,8 +503,6 @@ footer {
         
         flex: auto;
         float: center;
-
-        //! border bob
         
         &:first-child {
             border-top-left-radius: 10px;
@@ -525,7 +525,6 @@ footer {
     .grid-child > * {
         margin-top: 1rem;
         margin-top: 1rem;
-        margin-left: .8rem;
     }
     .grid-child > h2 {
         color: #ffffff50;
@@ -538,9 +537,16 @@ footer {
     p {
         padding-left: $body_padding;
 
-        font-size: 1.2em;
+        font-size: 1em;
         font-family: 'Anonymous Pro', serif;
         font-weight: 300;
+
+        em {
+            font-size: 1.1em;
+
+            color: $accent_color;
+            font-style: normal;
+        }
     }
 
     address {
@@ -568,7 +574,6 @@ footer {
 
             color: $accent_color;
             font-style: normal;
-            font-weight: bold;
 
             text-align: center;
             text-decoration: none;
