@@ -135,9 +135,11 @@ a {
 
     width : 99vw - $head_width - $scroll_margin;
     height: 100vh;
+
     margin-right: 0% + $scroll_margin;
-    
     padding: $content_margin;
+    padding-right: 1rem;
+
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -173,7 +175,7 @@ a {
 
     // margin-bottom: 2rem;
     padding: .2rem 1.5rem;
-
+    padding-bottom: 0;
 
     // background-color: blue;
     border-radius: 4px;
@@ -195,6 +197,11 @@ a {
         
         border-radius: 1px;   
     }   
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
 }
 .cat-header {
     // background-color: blue;
@@ -498,7 +505,7 @@ footer {
     .grid > .grid-child {
         background-color: $tetriary_color;
         
-        padding: .5rem 1rem .5rem 1rem;
+        padding: .2rem 1rem .2rem 1rem;
         margin: 0;
         
         flex: auto;
@@ -535,7 +542,8 @@ footer {
     }
 
     p {
-        padding-left: $body_padding;
+        margin: 1em 1em;
+        padding-left: .5em;
 
         font-size: 1em;
         font-family: 'Anonymous Pro', serif;
@@ -556,39 +564,33 @@ footer {
         // justify-content: space-evenly;
 
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(1rem, 14rem));
+        grid-template-columns: repeat(auto-fill, minmax(1rem, 10rem));
         // grid-template-rows: repeat(2, 100%);
         margin-left: 0 !important;
-        justify-content: center;
+        justify-content: left;
         gap: 0;
         margin-left: .3rem;
 
         
         
         a {
+            width: 10rem;
             display: flexbox;
 
             // margin-left: 1rem;
-            padding: .2rem 1rem;
+            
             margin: 0;
 
             color: $accent_color;
             font-style: normal;
 
-            text-align: center;
+            text-align: left;
             text-decoration: none;
             
             &:before {
-                content: '❮';
-
+                content: '❯';
                 float: left;
-
-                transition-duration: 250ms;
-            }
-            &:after {
-                content: "❯";
-                
-                float: right;
+                margin-right: 1rem;
 
                 transition-duration: 250ms;
             }
@@ -596,31 +598,26 @@ footer {
             &:hover {
                 color: $accent_color;
                 filter: brightness(80%);
-                // padding-left: 0rem;
-                margin: 0;
-                padding: .2rem 1rem;
-
-                &:after {
-                    margin-right: .5rem;
-                }
+                
                 &::before {
+                    // padding-left: .5rem;
+                    margin-right: .5rem;
                     margin-left: .5rem;
                 }
+
+                // &:after {
+                //     padding-right: .5rem;
+                //     margin-right: .5rem;
+                // }
             }
         }
         
         & > * {
-            // background-color: green;
-
-            padding-left: 2rem;
+            padding-left: 1.5rem;
             padding-bottom: .2rem;
             padding-top: .2rem;
 
             border-radius: 2px;
-
-            &:hover {
-                padding-left: 20%;
-            }
         }
 
     }

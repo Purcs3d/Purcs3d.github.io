@@ -97,6 +97,7 @@ a:hover {
   height: 100vh;
   margin-right: 0.5%;
   padding: 0.5%;
+  padding-right: 1rem;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -121,6 +122,7 @@ a:hover {
 .category {
   position: relative;
   padding: 0.2rem 1.5rem;
+  padding-bottom: 0;
   border-radius: 4px;
   margin-top: 0;
 }
@@ -133,6 +135,9 @@ a:hover {
   left: 0;
   background: #ea6f7d;
   border-radius: 1px;
+}
+.category:last-child {
+  margin-bottom: 0;
 }
 
 .cat-header {
@@ -365,7 +370,7 @@ footer .grid {
 }
 footer .grid > .grid-child {
   background-color: #0D0F15;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
   margin: 0;
   flex: auto;
   float: center;
@@ -396,7 +401,8 @@ footer .grid-child > h2 {
   margin-left: 0.3rem;
 }
 footer p {
-  padding-left: 1.5rem;
+  margin: 1em 1em;
+  padding-left: 0.5em;
   font-size: 1em;
   font-family: "Anonymous Pro", serif;
   font-weight: 300;
@@ -408,49 +414,38 @@ footer p em {
 }
 footer address {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1rem, 14rem));
+  grid-template-columns: repeat(auto-fill, minmax(1rem, 10rem));
   margin-left: 0 !important;
-  justify-content: center;
+  justify-content: left;
   gap: 0;
   margin-left: 0.3rem;
 }
 footer address a {
+  width: 10rem;
   display: flexbox;
-  padding: 0.2rem 1rem;
   margin: 0;
   color: #ea6f7d;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 footer address a:before {
-  content: "❮";
-  float: left;
-  transition-duration: 250ms;
-}
-footer address a:after {
   content: "❯";
-  float: right;
+  float: left;
+  margin-right: 1rem;
   transition-duration: 250ms;
 }
 footer address a:hover {
   color: #ea6f7d;
   filter: brightness(80%);
-  margin: 0;
-  padding: 0.2rem 1rem;
-}
-footer address a:hover:after {
-  margin-right: 0.5rem;
 }
 footer address a:hover::before {
+  margin-right: 0.5rem;
   margin-left: 0.5rem;
 }
 footer address > * {
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   padding-bottom: 0.2rem;
   padding-top: 0.2rem;
   border-radius: 2px;
-}
-footer address > *:hover {
-  padding-left: 20%;
 }/*# sourceMappingURL=index.css.map */
