@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap");
 :root {
   background-color: #06080f;
-  color: #f5f2e8;
+  color: #fdf5e8;
 }
 
 :root {
@@ -15,19 +15,19 @@ body {
   margin: 0;
 }
 
-a {
-  color: #dcdcf5;
-  transition: 150ms;
-}
-a:hover {
-  color: #f5f2e8;
-}
-
 header {
   margin: 0;
   padding: 0;
   float: left;
   width: 50vw;
+}
+
+a {
+  color: #dcdcf5;
+  transition: 150ms;
+}
+a:hover {
+  color: #fdf5e8;
 }
 
 #left-header {
@@ -75,7 +75,7 @@ header {
   position: absolute;
   bottom: 0%;
   right: 0%;
-  background-color: #f5f2e8;
+  background-color: #fdf5e8;
   -webkit-mask-image: url(/img/lab_fuzz.svg);
           mask-image: url(/img/lab_fuzz.svg);
   -webkit-mask-size: contain;
@@ -110,8 +110,12 @@ header {
   margin: 0 auto;
   background-color: transparent;
   border-radius: 3px;
-  color: #f5f2e8;
+  color: #fdf5e8;
   font-family: "Anonymous Pro", serif;
+}
+
+.pre-header {
+  color: #ea6f7d;
 }
 
 .category {
@@ -127,7 +131,7 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #ffa900;
+  background: #ea6f7d;
   border-radius: 1px;
 }
 
@@ -135,7 +139,7 @@ header {
   position: relative;
   margin-bottom: 0;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   font-size: 1.8em;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -148,10 +152,6 @@ header {
   position: relative;
   padding-bottom: 1.5rem;
   margin-bottom: 1rem;
-}
-.project:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
 }
 .project::after {
   content: "";
@@ -188,20 +188,19 @@ header {
   font-style: italic;
 }
 .project-meta .archived {
-  color: grey;
-  font-weight: 300;
+  color: #c5c5c5;
 }
 .project-meta .done {
-  color: lightgreen;
+  color: #36b536;
 }
 .project-meta .in-progress {
-  color: green;
+  color: #ffb327;
 }
 .project-meta .unstarted {
-  color: orange;
+  color: #636363;
 }
 .project-meta .shelved {
-  color: red;
+  color: #fe3d3d;
 }
 .project-meta .icon-box {
   color: transparent;
@@ -209,7 +208,7 @@ header {
   flex-direction: row;
 }
 .project-meta .icon-box .icon {
-  background-color: #ffa900;
+  background-color: #ea6f7d;
   height: 1.2em;
   width: 1.2em;
   mask-mode: luminance !important;
@@ -233,57 +232,100 @@ header {
           mask: url(/img/legends/cpp.svg) no-repeat;
 }
 
-.project-part {
+.project-content {
+  padding-left: 1.5rem;
   position: relative;
-  padding-left: 3%;
+  margin-top: 0.5rem;
 }
-.project-part::before {
+.project-content summary {
+  font-size: 1.4em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem !important;
+}
+.project-content p {
+  font-size: 1.2em;
+  font-family: "Anonymous Pro", serif;
+  font-weight: 300;
+}
+.project-content::before {
   content: "";
-  height: calc(100% - 27px);
-  width: 4px;
+  height: 100%;
+  width: 3.2px;
   position: absolute;
   bottom: 0;
-  left: 10;
-  background: #ffa900;
-  opacity: 50%;
+  left: 0;
+  background: #ea6f7d;
   border-radius: 1px;
+  opacity: 70%;
 }
-
-.part-meta {
-  color: rgba(255, 255, 255, 0.3137254902);
+.project-content::before .archived {
+  background-color: #c5c5c5;
 }
-.part-meta h5 {
-  color: #ffa900;
+.project-content::before .done {
+  background-color: #36b536 !important;
+}
+.project-content::before .in-progress {
+  background-color: #ffb327;
+}
+.project-content::before .unstarted {
+  background-color: #636363;
+}
+.project-content::before .shelved {
+  background-color: #fe3d3d;
+}
+.project-content .project-part {
+  position: relative;
+}
+.project-content .project-part h5 {
+  color: #fdf5e8;
   opacity: 82%;
   font-size: 1.3em;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   margin-bottom: 0;
 }
-.part-meta h5 .head-text {
-  color: #f5f2e8;
+.project-content .project-part h5 .head-text {
+  color: #fdf5e8;
 }
-.part-meta > *:not(h5) {
+.project-content .project-part > *:not(h5):not(.part-meta) {
+  padding-left: 1.5rem;
+}
+.project-content .project-part::before {
+  content: "";
+  height: calc(100% - 27px);
+  width: 2.56px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #ea6f7d;
+  opacity: 50%;
+  border-radius: 1px;
+}
+.project-content .part-meta {
+  color: rgba(255, 255, 255, 0.3137254902);
+}
+.project-content .part-meta > *:not(h5) {
   padding: 0 !important;
   margin: 0 !important;
   margin-left: 16px !important;
   font-size: 1em !important;
 }
-.part-meta .archived {
-  color: grey;
-  font-weight: 300;
+.project-content .part-meta .archived {
+  color: #c5c5c5;
 }
-.part-meta .done {
-  color: lightgreen;
+.project-content .part-meta .done {
+  color: #36b536;
 }
-.part-meta .in-progress {
-  color: green;
+.project-content .part-meta .in-progress {
+  color: #ffb327;
 }
-.part-meta .unstarted {
-  color: orange;
+.project-content .part-meta .unstarted {
+  color: #636363;
 }
-.part-meta .shelved {
-  color: red;
+.project-content .part-meta .shelved {
+  color: #fe3d3d;
 }
 
 .header-link {
@@ -303,21 +345,6 @@ header {
   color: #f5f2e8;
   text-decoration: underline;
   border-radius: 5px;
-}
-
-.project summary {
-  font-size: 1.4em;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  padding-left: 3%;
-}
-.project p {
-  padding-left: 3%;
-  font-size: 1.2em;
-  font-family: "Anonymous Pro", serif;
-  font-weight: 300;
 }
 
 footer {
@@ -370,7 +397,7 @@ footer .grid-child > h2 {
   margin-left: 0.3rem;
 }
 footer p {
-  padding-left: 3%;
+  padding-left: 1.5rem;
   font-size: 1.2em;
   font-family: "Anonymous Pro", serif;
   font-weight: 300;
@@ -379,15 +406,15 @@ footer address {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(1rem, 14rem));
   margin-left: 0 !important;
-  justify-content: space-between;
+  justify-content: center;
   gap: 0;
   margin-left: 0.3rem;
 }
 footer address a {
   display: flexbox;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   margin: 0;
-  color: #ffa900;
+  color: #ea6f7d;
   font-style: normal;
   font-weight: bold;
   text-align: center;
@@ -404,10 +431,10 @@ footer address a:after {
   transition-duration: 250ms;
 }
 footer address a:hover {
-  color: #ffa900;
+  color: #ea6f7d;
   filter: brightness(80%);
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
 }
 footer address a:hover:after {
   margin-right: 0.5rem;
