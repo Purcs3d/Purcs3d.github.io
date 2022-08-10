@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/**
+* @author  : Purcs3d
+* @version : 1.0c
+*/
+/**
+* @author  : Purcs3d
+* @version : 0.3c  
+*/
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap");
 :root {
   background-color: #00050e;
@@ -382,7 +390,7 @@ footer .grid {
   border-radius: 0 0 1rem 1rem;
 }
 footer .grid > .grid-child {
-  background-color: #0D0F15;
+  background-color: #050b18;
   padding: 0.2rem 1rem 0.2rem 1rem;
   margin: 0;
   flex: auto;
