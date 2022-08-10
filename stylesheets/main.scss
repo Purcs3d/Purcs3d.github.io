@@ -1,12 +1,15 @@
 // $prime_back :  #06080f;
-// $prime_color   : #f5f2e8;
-// $tetriary_color: #0D0F15;
-// $accent_color: #ffa900;
-
-$prime_back    : #06080f;
-$prime_color   : #fdf5e8;
+$prime_back :  #00050e;
+$prime_color   : #f5f2e8;
 $tetriary_color: #0D0F15;
-$accent_color: #ea6f7d;
+$accent_color: #ffa900;
+
+// $prime_back    : #080b15;
+// $prime_color   : #fdf5e8;
+// $tetriary_color: #12151e;
+// $accent_color  : #ec7d8a;
+// $links         : #
+// $accent_color: #9c978f;
 
 // $prime_back :  #06080f;
 // $prime_color   : #f5f2e8;
@@ -19,5 +22,15 @@ $accent_color: #ea6f7d;
 :root {
     background-color: $prime_back ;
     color: $prime_color;
+}
+
+a {
+    color: $accent_color;
+    
+    
+    transition: 150ms;
+    &:hover {
+        color: $prime_color;
+    }
 }
 

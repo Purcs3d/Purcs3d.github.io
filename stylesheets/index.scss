@@ -62,11 +62,16 @@ header {
 }
 
 a {
-    color: #dcdcf5;
+    color: $prime_color ;
     
-    transition: 150ms;
+    transition: 100ms;
     &:hover {
         color: $prime_color;
+        filter: brightness(60%);
+    }
+    &:active {
+        color: $accent_color;
+        filter: brightness(60%);
     }
 }
 
@@ -136,6 +141,7 @@ a {
     width : 99vw - $head_width - $scroll_margin;
     height: 100vh;
 
+    // margin-top: 2rem;
     margin-right: 0% + $scroll_margin;
     padding: $content_margin;
     padding-right: 1rem;
@@ -343,7 +349,7 @@ a {
     }
     
     p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         // font-size: 16px;
         font-family: 'Anonymous Pro', serif;
         font-weight: 300;
@@ -511,6 +517,7 @@ footer {
         flex: auto;
         float: center;
         
+        // rounds corners uniformally
         &:first-child {
             border-top-left-radius: 10px;
         }
@@ -529,10 +536,10 @@ footer {
 
 
     }
-    .grid-child > * {
-        margin-top: 1rem;
-        margin-top: 1rem;
-    }
+    // .grid-child > * {
+    //     margin-top: 1rem;
+    //     margin-bottom: 1rem;
+    // }
     .grid-child > h2 {
         color: #ffffff50;
         font-size: 1.2em;

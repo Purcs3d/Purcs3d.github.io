@@ -1,8 +1,16 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,200&display=swap");
 :root {
-  background-color: #06080f;
-  color: #fdf5e8;
+  background-color: #00050e;
+  color: #f5f2e8;
+}
+
+a {
+  color: #ffa900;
+  transition: 150ms;
+}
+a:hover {
+  color: #f5f2e8;
 }
 
 :root {
@@ -23,11 +31,16 @@ header {
 }
 
 a {
-  color: #dcdcf5;
-  transition: 150ms;
+  color: #f5f2e8;
+  transition: 100ms;
 }
 a:hover {
-  color: #fdf5e8;
+  color: #f5f2e8;
+  filter: brightness(60%);
+}
+a:active {
+  color: #ffa900;
+  filter: brightness(60%);
 }
 
 #left-header {
@@ -75,7 +88,7 @@ a:hover {
   position: absolute;
   bottom: 0%;
   right: 0%;
-  background-color: #fdf5e8;
+  background-color: #f5f2e8;
   -webkit-mask-image: url(/img/lab_fuzz.svg);
           mask-image: url(/img/lab_fuzz.svg);
   -webkit-mask-size: contain;
@@ -111,12 +124,12 @@ a:hover {
   margin: 0 auto;
   background-color: transparent;
   border-radius: 3px;
-  color: #fdf5e8;
+  color: #f5f2e8;
   font-family: "Anonymous Pro", serif;
 }
 
 .pre-header {
-  color: #ea6f7d;
+  color: #ffa900;
 }
 
 .category {
@@ -133,7 +146,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #ea6f7d;
+  background: #ffa900;
   border-radius: 1px;
 }
 .category:last-child {
@@ -213,7 +226,7 @@ a:hover {
   flex-direction: row;
 }
 .project-meta .icon-box .icon {
-  background-color: #ea6f7d;
+  background-color: #ffa900;
   height: 1.2em;
   width: 1.2em;
   mask-mode: luminance !important;
@@ -250,7 +263,7 @@ a:hover {
   margin-bottom: 0.5rem !important;
 }
 .project-content p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: "Anonymous Pro", serif;
   font-weight: 300;
 }
@@ -261,7 +274,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #ea6f7d;
+  background: #ffa900;
   border-radius: 1px;
   opacity: 70%;
 }
@@ -284,7 +297,7 @@ a:hover {
   position: relative;
 }
 .project-content .project-part h5 {
-  color: #fdf5e8;
+  color: #f5f2e8;
   opacity: 82%;
   font-size: 1.3em;
   font-family: "Raleway", sans-serif;
@@ -292,7 +305,7 @@ a:hover {
   margin-bottom: 0;
 }
 .project-content .project-part h5 .head-text {
-  color: #fdf5e8;
+  color: #f5f2e8;
 }
 .project-content .project-part > *:not(h5):not(.part-meta) {
   padding-left: 1.5rem;
@@ -304,7 +317,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #ea6f7d;
+  background: #ffa900;
   opacity: 50%;
   border-radius: 1px;
 }
@@ -390,10 +403,6 @@ footer .grid > .grid-child:last-child:nth-child(odd) {
 footer .grid > .grid-child:nth-last-child(2):nth-child(even) {
   border-bottom-right-radius: 10px;
 }
-footer .grid-child > * {
-  margin-top: 1rem;
-  margin-top: 1rem;
-}
 footer .grid-child > h2 {
   color: rgba(255, 255, 255, 0.3137254902);
   font-size: 1.2em;
@@ -409,7 +418,7 @@ footer p {
 }
 footer p em {
   font-size: 1.1em;
-  color: #ea6f7d;
+  color: #ffa900;
   font-style: normal;
 }
 footer address {
@@ -424,7 +433,7 @@ footer address a {
   width: 10rem;
   display: flexbox;
   margin: 0;
-  color: #ea6f7d;
+  color: #ffa900;
   font-style: normal;
   text-align: left;
   text-decoration: none;
@@ -436,7 +445,7 @@ footer address a:before {
   transition-duration: 250ms;
 }
 footer address a:hover {
-  color: #ea6f7d;
+  color: #ffa900;
   filter: brightness(80%);
 }
 footer address a:hover::before {
