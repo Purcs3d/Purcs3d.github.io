@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="112.25mm" height="112.25mm" version="1.1" viewBox="0 0 112.25 112.25" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath701">
+   <path d="m152.6-270.73 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" display="none" fill="#fff" style="paint-order:markers fill stroke"/>
+   <path class="powerclip" d="m107.92-302.19h89.375v89.375h-89.375zm44.687 31.458 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" fill="#fff" style="paint-order:markers fill stroke"/>
+  </clipPath>
+  <clipPath id="clipPath693">
+   <path d="m152.6-270.73 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" display="none" fill="#fff" style="paint-order:markers fill stroke"/>
+   <path class="powerclip" d="m107.92-302.19h89.375v89.375h-89.375zm44.687 31.458 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" fill="#fff" style="paint-order:markers fill stroke"/>
+  </clipPath>
+  <clipPath id="clipPath685">
+   <path d="m152.6-270.73 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" display="none" fill="#fff" style="paint-order:markers fill stroke"/>
+   <path class="powerclip" d="m107.92-302.19h89.375v89.375h-89.375zm44.687 31.458 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" fill="#fff" style="paint-order:markers fill stroke"/>
+  </clipPath>
+  <clipPath id="clipPath677">
+   <path d="m152.6-270.73 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" display="none" fill="#fff" style="paint-order:markers fill stroke"/>
+   <path class="powerclip" d="m107.92-302.19h89.375v89.375h-89.375zm44.687 31.458 13.229-13.229h-26.458l-13.229 13.229v26.458l13.229 13.229h26.458l13.229-13.229v-26.458l-13.229 13.229v13.229h-26.458v-26.458z" fill="#fff" style="paint-order:markers fill stroke"/>
+  </clipPath>
+ </defs>
+ <g transform="rotate(45 -274.21 -217.14)">
+  <path d="m152.6-217.81h-26.458l-13.229-13.229v-52.917l13.229-13.229h26.458z" clip-path="url(#clipPath701)" fill="#555" style="paint-order:markers fill stroke"/>
+  <g>
+   <path d="m152.6-257.5h39.688v-26.458l-13.229-13.229h-26.458z" clip-path="url(#clipPath693)" fill="#b0b0b0" style="paint-order:markers fill stroke"/>
+   <path d="m179.06-217.81h-26.458v-39.688h39.687v26.458z" clip-path="url(#clipPath685)" fill="#757575" style="paint-order:markers fill stroke"/>
+   <path d="m152.6-217.81h-26.458l-13.229-13.229v-52.917l13.229-13.229h26.458z" clip-path="url(#clipPath677)" fill="#fff" style="paint-order:markers fill stroke"/>
+  </g>
+ </g>
+</svg>

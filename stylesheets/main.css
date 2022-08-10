@@ -1,4 +1,16 @@
+/**
+* @author  : Purcs3d
+* @version : 0.3c  
+*/
 :root {
-  background-color: #06080f;
+  background-color: #00050e;
+  color: #f5f2e8;
+}
+
+a {
+  color: #ffa900;
+  transition: 150ms;
+}
+a:hover {
   color: #f5f2e8;
 }/*# sourceMappingURL=main.css.map */
